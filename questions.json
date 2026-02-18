@@ -1,0 +1,6022 @@
+[
+  {
+    "id": 1,
+    "topic": "Tables & Data Types",
+    "question": "Data in a database is stored in:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Tables"
+      },
+      {
+        "label": "B",
+        "text": "Queries"
+      },
+      {
+        "label": "C",
+        "text": "Data types"
+      },
+      {
+        "label": "D",
+        "text": "Stored procedures"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 2,
+    "topic": "Tables & Data Types",
+    "question": "The component that holds information for a single entry in a table is called a:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Data type"
+      },
+      {
+        "label": "B",
+        "text": "Row"
+      },
+      {
+        "label": "C",
+        "text": "Column"
+      },
+      {
+        "label": "D",
+        "text": "Attribute"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 3,
+    "topic": "Tables & Data Types",
+    "question": "Evaluate underlined text. A row holds information for a single record in a table. If correct select \"No change needed\", else select correct answer.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "Column"
+      },
+      {
+        "label": "C",
+        "text": "Data type"
+      },
+      {
+        "label": "D",
+        "text": "View"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 4,
+    "topic": "Tables & Data Types",
+    "question": "Evaluate underlined text. In a database table, each column represents a unique record. If correct select \"No change needed\", else select correct answer.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "Table"
+      },
+      {
+        "label": "C",
+        "text": "Index"
+      },
+      {
+        "label": "D",
+        "text": "Row"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 5,
+    "topic": "Tables & Data Types",
+    "question": "You need to store contact information for each student. You should store each student's information in a:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Stored procedure"
+      },
+      {
+        "label": "B",
+        "text": "Function"
+      },
+      {
+        "label": "C",
+        "text": "Row"
+      },
+      {
+        "label": "D",
+        "text": "Variable"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 6,
+    "topic": "Tables & Data Types",
+    "question": "Which best describes a column in a table?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A single record in the table"
+      },
+      {
+        "label": "B",
+        "text": "A unique identifier for the table"
+      },
+      {
+        "label": "C",
+        "text": "A vertical collection of data for a specific attribute"
+      },
+      {
+        "label": "D",
+        "text": "A link between two tables"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 7,
+    "topic": "Tables & Data Types",
+    "question": "Select Yes/No: A. Each value in a field must be unique B. Each row must be unique C. Each column name must be unique",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A: No, B: Yes, C: Yes"
+      },
+      {
+        "label": "B",
+        "text": "A: Yes, B: No, C: Yes"
+      },
+      {
+        "label": "C",
+        "text": "A: Yes, B: Yes, C: No"
+      },
+      {
+        "label": "D",
+        "text": "A: No, B: No, C: Yes"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 8,
+    "topic": "Tables & Data Types",
+    "question": "Store first name, last name, student ID for 100 students. This information stored as:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "100 items and three cells"
+      },
+      {
+        "label": "B",
+        "text": "100 rows and three columns"
+      },
+      {
+        "label": "C",
+        "text": "three rows and 100 columns"
+      },
+      {
+        "label": "D",
+        "text": "three items and 100 cells"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 9,
+    "topic": "Tables & Data Types",
+    "question": "Which two elements required to define a column? (Choose two)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A name"
+      },
+      {
+        "label": "B",
+        "text": "A key"
+      },
+      {
+        "label": "C",
+        "text": "An index"
+      },
+      {
+        "label": "D",
+        "text": "A data type"
+      }
+    ],
+    "correct": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "id": 10,
+    "topic": "Tables & Data Types",
+    "question": "What defines amount of storage space allocated to a value in a column?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "format"
+      },
+      {
+        "label": "B",
+        "text": "key"
+      },
+      {
+        "label": "C",
+        "text": "data type"
+      },
+      {
+        "label": "D",
+        "text": "validator"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 11,
+    "topic": "Tables & Data Types",
+    "question": "Store product quantities, minimize storage space. Which data type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "INTEGER"
+      },
+      {
+        "label": "B",
+        "text": "DOUBLE"
+      },
+      {
+        "label": "C",
+        "text": "COUNT"
+      },
+      {
+        "label": "D",
+        "text": "FLOAT"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 12,
+    "topic": "Tables & Data Types",
+    "question": "Store whole numbers 1 to 100. Range never changes. Which data type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Bit"
+      },
+      {
+        "label": "B",
+        "text": "Tinyint"
+      },
+      {
+        "label": "C",
+        "text": "Smallint"
+      },
+      {
+        "label": "D",
+        "text": "Integer"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 13,
+    "topic": "Tables & Data Types",
+    "question": "Column contains values 0 to 1024. Most economical data type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "INT"
+      },
+      {
+        "label": "B",
+        "text": "TINYINT"
+      },
+      {
+        "label": "C",
+        "text": "DECIMAL(3)"
+      },
+      {
+        "label": "D",
+        "text": "SMALLINT"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 14,
+    "topic": "Tables & Data Types",
+    "question": "When defining cost of product, best to use ___ data type.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "int"
+      },
+      {
+        "label": "B",
+        "text": "varchar"
+      },
+      {
+        "label": "C",
+        "text": "decimal"
+      },
+      {
+        "label": "D",
+        "text": "bit"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 15,
+    "topic": "Tables & Data Types",
+    "question": "Data type for storing true/false or yes/no answers?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Int"
+      },
+      {
+        "label": "B",
+        "text": "Float"
+      },
+      {
+        "label": "C",
+        "text": "Bit"
+      },
+      {
+        "label": "D",
+        "text": "Char"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 16,
+    "topic": "Tables & Data Types",
+    "question": "Store product names 3-30 characters, minimize storage. Which data type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "VARCHAR(3, 30)"
+      },
+      {
+        "label": "B",
+        "text": "CHAR(3, 30)"
+      },
+      {
+        "label": "C",
+        "text": "VARCHAR(30)"
+      },
+      {
+        "label": "D",
+        "text": "CHAR(30)"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 17,
+    "topic": "Tables & Data Types",
+    "question": "Store product names in different languages. Which data type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CHAR"
+      },
+      {
+        "label": "B",
+        "text": "NCHAR"
+      },
+      {
+        "label": "C",
+        "text": "TEXT"
+      },
+      {
+        "label": "D",
+        "text": "VARCHAR"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 18,
+    "topic": "Tables & Data Types",
+    "question": "AccountNumber: one letter and four digits. Which data type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CHAR"
+      },
+      {
+        "label": "B",
+        "text": "BYTE"
+      },
+      {
+        "label": "C",
+        "text": "DOUBLE"
+      },
+      {
+        "label": "D",
+        "text": "SMALLINT"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 19,
+    "topic": "Tables & Data Types",
+    "question": "Yes/No: A. Char(size) holds fixed-length string B. Text holds fixed-length string C. Varchar(size) holds differing lengths",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A: Yes, B: No, C: Yes"
+      },
+      {
+        "label": "B",
+        "text": "A: No, B: Yes, C: No"
+      },
+      {
+        "label": "C",
+        "text": "A: Yes, B: Yes, C: No"
+      },
+      {
+        "label": "D",
+        "text": "A: No, B: No, C: Yes"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 20,
+    "topic": "Tables & Data Types",
+    "question": "Yes/No: A. VARCHAR contains only numeric characters B. NUMERIC contains only decimal numbers C. INT contains only whole numbers",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A: No, B: No, C: Yes"
+      },
+      {
+        "label": "B",
+        "text": "A: Yes, B: Yes, C: No"
+      },
+      {
+        "label": "C",
+        "text": "A: No, B: Yes, C: Yes"
+      },
+      {
+        "label": "D",
+        "text": "A: Yes, B: No, C: No"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 21,
+    "topic": "Tables & Data Types",
+    "question": "School attendance: StudentName (string), GradeLevel (whole), DaysAbsent (one decimal). Match data types.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "StudentName: VARCHAR, GradeLevel: INT, DaysAbsent: DECIMAL"
+      },
+      {
+        "label": "B",
+        "text": "StudentName: CHAR, GradeLevel: DECIMAL, DaysAbsent: INT"
+      },
+      {
+        "label": "C",
+        "text": "StudentName: INT, GradeLevel: VARCHAR, DaysAbsent: CHAR"
+      },
+      {
+        "label": "D",
+        "text": "StudentName: TEXT, GradeLevel: FLOAT, DaysAbsent: BIT"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 22,
+    "topic": "Tables & Data Types",
+    "question": "Coffee shop stores purchase charges. Data type for financial functions?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Decimal / Money"
+      },
+      {
+        "label": "B",
+        "text": "Bit"
+      },
+      {
+        "label": "C",
+        "text": "Varchar"
+      },
+      {
+        "label": "D",
+        "text": "Binary"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 23,
+    "topic": "Primary & Foreign Keys",
+    "question": "Which constraint ensures unique value in ID column?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "DISTINCT"
+      },
+      {
+        "label": "B",
+        "text": "FOREIGN KEY"
+      },
+      {
+        "label": "C",
+        "text": "SEQUENTIAL"
+      },
+      {
+        "label": "D",
+        "text": "PRIMARY KEY"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 24,
+    "topic": "Primary & Foreign Keys",
+    "question": "Ensure column uniquely identifies each table row. Which constraint?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Primary key"
+      },
+      {
+        "label": "B",
+        "text": "Secondary key"
+      },
+      {
+        "label": "C",
+        "text": "Foreign key"
+      },
+      {
+        "label": "D",
+        "text": "Default key"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 25,
+    "topic": "Primary & Foreign Keys",
+    "question": "Chapter and Language tables. ChapterLanguage relates them. Select 2 columns for composite primary key (Choose two)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ChapterId"
+      },
+      {
+        "label": "B",
+        "text": "LanguageId"
+      },
+      {
+        "label": "C",
+        "text": "Country"
+      },
+      {
+        "label": "D",
+        "text": "Region"
+      },
+      {
+        "label": "E",
+        "text": "City"
+      },
+      {
+        "label": "F",
+        "text": "LanguageName"
+      }
+    ],
+    "correct": [
+      "A",
+      "B"
+    ]
+  },
+  {
+    "id": 26,
+    "topic": "Primary & Foreign Keys",
+    "question": "Yes/No: a) Foreign Key enforces referential integrity b) Table has only one Foreign Key c) Foreign key points to primary key d) NULL means no relations",
+    "answers": [
+      {
+        "label": "A",
+        "text": "a: Yes, b: No, c: Yes, d: Yes"
+      },
+      {
+        "label": "B",
+        "text": "a: Yes, b: Yes, c: No, d: No"
+      },
+      {
+        "label": "C",
+        "text": "a: No, b: Yes, c: Yes, d: No"
+      },
+      {
+        "label": "D",
+        "text": "a: No, b: No, c: No, d: Yes"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 27,
+    "topic": "Primary & Foreign Keys",
+    "question": "Department/Employee tables. Ensure employee assigned to existing department. What to apply to Employee?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A primary key"
+      },
+      {
+        "label": "B",
+        "text": "An index"
+      },
+      {
+        "label": "C",
+        "text": "A foreign key"
+      },
+      {
+        "label": "D",
+        "text": "A unique constraint"
+      },
+      {
+        "label": "E",
+        "text": "A data type"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 28,
+    "topic": "Primary & Foreign Keys",
+    "question": "Salesperson/Sales tables. Ensure each Sales has valid salesperson. What to add to Sales?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Nonclustered index"
+      },
+      {
+        "label": "B",
+        "text": "Primary key"
+      },
+      {
+        "label": "C",
+        "text": "Foreign key"
+      },
+      {
+        "label": "D",
+        "text": "Clustered index"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 29,
+    "topic": "Primary & Foreign Keys",
+    "question": "State/Address tables. StateID unique in State, AddressID unique in Address. Related by StateID. StateID is ___ in each table.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Primary Key in State, Foreign Key in Address"
+      },
+      {
+        "label": "B",
+        "text": "Foreign Key in State, Primary Key in Address"
+      },
+      {
+        "label": "C",
+        "text": "Primary Key in both"
+      },
+      {
+        "label": "D",
+        "text": "Foreign Key in both"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 30,
+    "topic": "Primary & Foreign Keys",
+    "question": "Which two keys establish relationship between tables? (Choose two)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "candidate"
+      },
+      {
+        "label": "B",
+        "text": "foreign"
+      },
+      {
+        "label": "C",
+        "text": "superkey"
+      },
+      {
+        "label": "D",
+        "text": "local"
+      },
+      {
+        "label": "E",
+        "text": "primary"
+      }
+    ],
+    "correct": [
+      "C",
+      "E"
+    ]
+  },
+  {
+    "id": 31,
+    "topic": "Primary & Foreign Keys",
+    "question": "Students/Courses tables related by CourseID. Match CourseName to StudentName.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Match based on CourseID"
+      },
+      {
+        "label": "B",
+        "text": "Use INNER JOIN on CourseID"
+      },
+      {
+        "label": "C",
+        "text": "StudentName from Students, CourseName from Courses"
+      },
+      {
+        "label": "D",
+        "text": "All of the above"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 32,
+    "topic": "Constraints",
+    "question": "What sets limits/rules on column to ensure valid data?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "checker"
+      },
+      {
+        "label": "B",
+        "text": "validator"
+      },
+      {
+        "label": "C",
+        "text": "scanner"
+      },
+      {
+        "label": "D",
+        "text": "constraint"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 33,
+    "topic": "Relationships",
+    "question": "Example of One-to-One relationship?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Employee and passport"
+      },
+      {
+        "label": "B",
+        "text": "Customer and orders"
+      },
+      {
+        "label": "C",
+        "text": "Book and authors"
+      },
+      {
+        "label": "D",
+        "text": "Department and employees"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 34,
+    "topic": "Relationships",
+    "question": "Teacher teaches multiple classes, each class one teacher. Relationship type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "One-to-One"
+      },
+      {
+        "label": "B",
+        "text": "One-to-Many"
+      },
+      {
+        "label": "C",
+        "text": "Many-to-Many"
+      },
+      {
+        "label": "D",
+        "text": "Circular"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 35,
+    "topic": "Relationships",
+    "question": "Student enrolls in multiple courses, course has multiple students. Relationship?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "One-to-One"
+      },
+      {
+        "label": "B",
+        "text": "One-to-Many"
+      },
+      {
+        "label": "C",
+        "text": "Many-to-Many"
+      },
+      {
+        "label": "D",
+        "text": "Self-referencing"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 36,
+    "topic": "SELECT",
+    "question": "SQL statement to retrieve rows from table. Which DML command?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "READ"
+      },
+      {
+        "label": "B",
+        "text": "SELECT"
+      },
+      {
+        "label": "C",
+        "text": "OUTPUT"
+      },
+      {
+        "label": "D",
+        "text": "GET"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 37,
+    "topic": "SELECT",
+    "question": "Command to perform query in SQL?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "USE"
+      },
+      {
+        "label": "B",
+        "text": "SELECT"
+      },
+      {
+        "label": "C",
+        "text": "QUERY"
+      },
+      {
+        "label": "D",
+        "text": "CHOSE"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 38,
+    "topic": "SELECT",
+    "question": "Customer table: CustomerID, FirstName, DateJoined. Execute SELECT CustomerID, FirstName, DateJoined FROM Customer. How are rows organized?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "In no predictable order"
+      },
+      {
+        "label": "B",
+        "text": "Alphabetical by FirstName"
+      },
+      {
+        "label": "C",
+        "text": "Chronological by DateJoined"
+      },
+      {
+        "label": "D",
+        "text": "Order rows inserted"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 39,
+    "topic": "SELECT",
+    "question": "Employee table has 4 columns. Execute SELECT * FROM Employee. Which columns returned?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "all columns"
+      },
+      {
+        "label": "B",
+        "text": "only last column"
+      },
+      {
+        "label": "C",
+        "text": "only first column"
+      },
+      {
+        "label": "D",
+        "text": "only first and last columns"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 40,
+    "topic": "SELECT",
+    "question": "Flower shop wants every flower ordered, each shown once. Which SQL statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT UNIQUE flowername FROM flowers"
+      },
+      {
+        "label": "B",
+        "text": "SELECT flowername FROM flowers DISTINCT"
+      },
+      {
+        "label": "C",
+        "text": "SELECT DISTINCT flowername FROM flowers"
+      },
+      {
+        "label": "D",
+        "text": "SELECT TOP 1 flowername FROM flowers"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 41,
+    "topic": "SELECT",
+    "question": "Stored procedure: SELECT 'Greetings' + Prefix + ' ' + FirstName FROM Person; Returns null. Data exists. Problem?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Must specify NULLIF"
+      },
+      {
+        "label": "B",
+        "text": "Plus operator cannot append character data"
+      },
+      {
+        "label": "C",
+        "text": "Prefix or FirstName has null values"
+      },
+      {
+        "label": "D",
+        "text": "Must specify JOIN"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 42,
+    "topic": "WHERE Clause",
+    "question": "Evaluate underlined. Use FROM keyword in SELECT to return rows meeting condition. If correct \"No change needed\", else select correct.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "ORDER BY"
+      },
+      {
+        "label": "C",
+        "text": "UNION"
+      },
+      {
+        "label": "D",
+        "text": "WHERE"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 43,
+    "topic": "WHERE Clause",
+    "question": "What to use to combine two parameters in query?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "PLUS"
+      },
+      {
+        "label": "B",
+        "text": "BOTH"
+      },
+      {
+        "label": "C",
+        "text": "COMBINE"
+      },
+      {
+        "label": "D",
+        "text": "AND"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 44,
+    "topic": "WHERE Clause",
+    "question": "SongInformation table. Retrieve names of songs with CDsSold > 1000. Which query?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT Name FROM SongInformation WHERE CDsSold > 1000"
+      },
+      {
+        "label": "B",
+        "text": "SELECT Name FROM CDsSold WHERE CDsSold > 1000"
+      },
+      {
+        "label": "C",
+        "text": "SELECT FROM SongInformation WHERE CDsSold > 1000"
+      },
+      {
+        "label": "D",
+        "text": "SELECT * FROM SongInformation"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 45,
+    "topic": "WHERE Clause",
+    "question": "Query for orders excluding TX and AZ. Which query correct?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "WHERE NOT Ship_State = 'TX' AND NOT Ship_State = 'AZ'"
+      },
+      {
+        "label": "B",
+        "text": "WHERE NOT Ship_State = 'TX' OR NOT Ship_State = 'AZ'"
+      },
+      {
+        "label": "C",
+        "text": "WHERE Ship_State NOT = 'TX' AND Ship_State NOT = 'AZ'"
+      },
+      {
+        "label": "D",
+        "text": "WHERE Ship_State NOT = 'TX' OR Ship_State NOT = 'AZ'"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 46,
+    "topic": "WHERE Clause",
+    "question": "Cars table. Execute: SELECT * FROM Cars WHERE Origin <> 'USA' AND Color <> 'Black'. How many rows?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "4"
+      },
+      {
+        "label": "B",
+        "text": "5"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "7"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 47,
+    "topic": "WHERE Clause",
+    "question": "Product table. Execute: SELECT Name FROM Product WHERE Quantity IS NOT NULL. How many rows?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "2"
+      },
+      {
+        "label": "D",
+        "text": "3"
+      },
+      {
+        "label": "E",
+        "text": "4"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 48,
+    "topic": "WHERE Clause",
+    "question": "Sales manager wants customers sales >= 50000 AND (Los Angeles, CA OR Nevada OR Arizona). Which SQL?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "sales >=50000 OR ((city=\"LA\" AND state=\"CA\") OR state IN (\"NV\", \"AZ\"))"
+      },
+      {
+        "label": "B",
+        "text": "sales >50000 AND ((city=\"LA\" AND state=\"CA\") OR state IN (\"NV\", \"AZ\"))"
+      },
+      {
+        "label": "C",
+        "text": "sales >=50000 AND ((city=\"LA\" AND state=\"CA\") OR state IN (\"NV\", \"AZ\"))"
+      },
+      {
+        "label": "D",
+        "text": "sales >50000 OR ((city=\"LA\" AND state=\"CA\") AND state IN (\"NV\", \"AZ\"))"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 49,
+    "topic": "BETWEEN",
+    "question": "Clause to pull records based on range with SELECT?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "COMBO"
+      },
+      {
+        "label": "B",
+        "text": "BETWEEN"
+      },
+      {
+        "label": "C",
+        "text": "OR"
+      },
+      {
+        "label": "D",
+        "text": "COMBINE"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 50,
+    "topic": "LIKE",
+    "question": "Find product whose name contains specific character. Which keyword in WHERE?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "FIND"
+      },
+      {
+        "label": "B",
+        "text": "BETWEEN"
+      },
+      {
+        "label": "C",
+        "text": "INCLUDES"
+      },
+      {
+        "label": "D",
+        "text": "LIKE"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 51,
+    "topic": "LIKE",
+    "question": "Products table. Retrieve ItemName and Price when chocolate in ItemDescription?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "WHERE ItemDescription = 'chocolate'"
+      },
+      {
+        "label": "B",
+        "text": "WHERE ItemDescription LIKE '%chocolate%'"
+      },
+      {
+        "label": "C",
+        "text": "WHERE ItemDescription LIKE 'chocolate'"
+      },
+      {
+        "label": "D",
+        "text": "WHERE ItemDescription IN '%chocolate%'"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 52,
+    "topic": "WHERE Clause",
+    "question": "Orders after Jan 2017 except California. Which query?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "WHERE order_date > '2017-01-01' AND ship_state <> 'CA'"
+      },
+      {
+        "label": "B",
+        "text": "WHERE order_date > '2017-01-01' OR ship_state <> 'CA'"
+      },
+      {
+        "label": "C",
+        "text": "WHERE order_date ? '2017-01-01' AND ship_state LIKE 'CA'"
+      },
+      {
+        "label": "D",
+        "text": "WHERE order_date > '2017-01-01' OR ship_state LIKE 'CA'"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 53,
+    "topic": "ORDER BY",
+    "question": "List name and price, sorted by price highest to lowest. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT Name, Price FROM Product ORDER BY Price DESC"
+      },
+      {
+        "label": "B",
+        "text": "SELECT Name, Price FROM Product ORDER BY Price ASC"
+      },
+      {
+        "label": "C",
+        "text": "SELECT Name, BOTTOM Price FROM Product"
+      },
+      {
+        "label": "D",
+        "text": "SELECT Name, TOP Price FROM Product"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 54,
+    "topic": "ORDER BY",
+    "question": "Complete: SELECT lastname, firstname FROM customers ___ state = \"UT\" ___ lastname",
+    "answers": [
+      {
+        "label": "A",
+        "text": "WHERE, ORDER BY"
+      },
+      {
+        "label": "B",
+        "text": "HAVING, SORT BY"
+      },
+      {
+        "label": "C",
+        "text": "WHEN, ORDER BY"
+      },
+      {
+        "label": "D",
+        "text": "WHERE, SORT BY"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 55,
+    "topic": "ORDER BY",
+    "question": "Customers table. Query lastname, phonenumber, valid extensions, sorted. Complete: WHERE ___ ___ ___ Lastname",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Extension, IS NOT NULL, ORDER BY"
+      },
+      {
+        "label": "B",
+        "text": "PhoneNumber, IS VALID, SORT BY"
+      },
+      {
+        "label": "C",
+        "text": "Extension, IS NULL, ORDER BY"
+      },
+      {
+        "label": "D",
+        "text": "Extension, NOT NULL, SORT BY"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 56,
+    "topic": "ORDER BY",
+    "question": "Flight table. Flights arriving LGA later today, sorted by most recent. Complete: WHERE DestinationAirport = 'LGA' ___ ArrivalTime ___ GETDATE() ___ ___ ArrivalTime",
+    "answers": [
+      {
+        "label": "A",
+        "text": "AND, >, ORDER BY, DESC"
+      },
+      {
+        "label": "B",
+        "text": "OR, <, GROUP BY, ASC"
+      },
+      {
+        "label": "C",
+        "text": "AND, =, ORDER BY, DESC"
+      },
+      {
+        "label": "D",
+        "text": "NOT, <>, HAVING, ASC"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 57,
+    "topic": "ORDER BY",
+    "question": "Students report: enrolled >= 2020-06-01 OR graduated in 2020; order by enrollment desc. Which query?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "WHERE enrollment_date >= '2020-06-01' OR status ='graduated' AND graduation_date >= '2020-01-01' ORDER BY enrollment_date DESC"
+      },
+      {
+        "label": "B",
+        "text": "WHERE enrollment_date >= '2020-06-01' AND status ='graduated' AND graduation_date >= '2020-01-01' ORDER BY enrollment_date ASC"
+      },
+      {
+        "label": "C",
+        "text": "WHERE enrollment_date >= '2020-06-01' AND status ='graduated' OR graduation_date >= '2020-01-01' ORDER BY enrollment_date"
+      },
+      {
+        "label": "D",
+        "text": "WHERE enrollment_date >= '2020-06-01' OR status ='graduated' OR graduation_date >= '2020-01-01' ORDER BY enrollment_date DESC"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 58,
+    "topic": "ORDER BY",
+    "question": "Building table: Address, InspectionDate. NULL means not inspected. Display address of earliest 10 inspected. Complete: SELECT ___ Address WHERE InspectionDate ___ ___ InspectionDate",
+    "answers": [
+      {
+        "label": "A",
+        "text": "TOP 10, IS NOT NULL, ORDER BY"
+      },
+      {
+        "label": "B",
+        "text": "COUNT, IS NULL, GROUP BY"
+      },
+      {
+        "label": "C",
+        "text": "GROUP BY 10, IS NOT NULL, HAVING"
+      },
+      {
+        "label": "D",
+        "text": "TOP 10, NOT NULL, SORT BY"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 59,
+    "topic": "Aggregate Functions",
+    "question": "Function returns total sum of values in numeric column?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SUM()"
+      },
+      {
+        "label": "B",
+        "text": "TOTAL()"
+      },
+      {
+        "label": "C",
+        "text": "ADD()"
+      },
+      {
+        "label": "D",
+        "text": "ACCUMULATE()"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 60,
+    "topic": "Aggregate Functions",
+    "question": "Function returns average value from column?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "AVERAGE()"
+      },
+      {
+        "label": "B",
+        "text": "AVG()"
+      },
+      {
+        "label": "C",
+        "text": "COUNT()"
+      },
+      {
+        "label": "D",
+        "text": "MEDIUM()"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 61,
+    "topic": "Aggregate Functions",
+    "question": "Employee table with Salary. Result of: SELECT MAX(Salary) from employee?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "83000"
+      },
+      {
+        "label": "B",
+        "text": "1"
+      },
+      {
+        "label": "C",
+        "text": "Gomez"
+      },
+      {
+        "label": "D",
+        "text": "38000"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 62,
+    "topic": "GROUP BY",
+    "question": "SQL returning number of customers in each city?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT City, COUNT(*) FROM Customers;"
+      },
+      {
+        "label": "B",
+        "text": "SELECT City FROM Customers GROUP BY COUNT(*);"
+      },
+      {
+        "label": "C",
+        "text": "SELECT COUNT(*) FROM Customers GROUP BY City;"
+      },
+      {
+        "label": "D",
+        "text": "SELECT City, COUNT(*) FROM Customers GROUP BY City;"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 63,
+    "topic": "Aggregate Functions",
+    "question": "Employee table. Statement returns number of rows?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT * FROM Employee"
+      },
+      {
+        "label": "B",
+        "text": "SELECT SUM(*) FROM Employee"
+      },
+      {
+        "label": "C",
+        "text": "SELECT COUNT(rows) FROM Employee"
+      },
+      {
+        "label": "D",
+        "text": "SELECT COUNT(*) FROM Employee"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 64,
+    "topic": "Aggregate Functions",
+    "question": "Product table. Execute: SELECT COUNT(*) FROM Product WHERE Quantity > 18. Value returned?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 65,
+    "topic": "Aggregate Functions",
+    "question": "ItemsOnOrder table. Display total orders, avg line item, highest, grand total. Which query?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT COUNT(ID), AVG(LineItemTotal), MAX(LineItemTotal), SUM(LineItemTotal) FROM ItemsOnOrder HAVING ItemNumber, Quantity, UnitPrice"
+      },
+      {
+        "label": "B",
+        "text": "SELECT COUNT(ID), AVG(UnitPrice+Quantity), MAX(UnitPrice+Quantity), SUM(UnitPrice+Quantity) FROM ItemOnOrder GROUP By ItemNumber, LineItemTotal"
+      },
+      {
+        "label": "C",
+        "text": "SELECT SUM(ID), AVG(LineItemTotal), MAX(LineItemTotal), SUM(LineItemTotal) FROM ItemOnOrder"
+      },
+      {
+        "label": "D",
+        "text": "SELECT COUNT(ID), AVG(LineItemTotal), MAX(LineItemTotal), SUM(LineItemTotal) FROM ItemOnOrder"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 66,
+    "topic": "GROUP BY",
+    "question": "PlayerStat table. Display total points per player on team ID=1. Complete: SELECT PlayerID, ___ FROM PlayerStat ___ TeamID = 1 ___ ___",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SUM(Points), WHERE, GROUP BY, PlayerID"
+      },
+      {
+        "label": "B",
+        "text": "COUNT, HAVING, TeamID, Points"
+      },
+      {
+        "label": "C",
+        "text": "SUM(Points), WHERE, ORDER BY, TeamID"
+      },
+      {
+        "label": "D",
+        "text": "AVG(Points), GROUP BY, HAVING, COUNT"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 67,
+    "topic": "GROUP BY",
+    "question": "Query returns total sales amount per product? (Sales: ProductName, Amount)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT ProductName, SUM(Amount) FROM Sales;"
+      },
+      {
+        "label": "B",
+        "text": "SELECT SUM(Amount) FROM Sales GROUP BY ProductName;"
+      },
+      {
+        "label": "C",
+        "text": "SELECT ProductName, SUM(Amount) FROM Sales GROUP BY ProductName;"
+      },
+      {
+        "label": "D",
+        "text": "SELECT ProductName, Amount FROM Sales GROUP BY Amount;"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 68,
+    "topic": "HAVING",
+    "question": "What does this return? SELECT Department, COUNT(*) FROM Employees GROUP BY Department HAVING COUNT(*) > 5;",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Departments with > 5 employees"
+      },
+      {
+        "label": "B",
+        "text": "All employees in each department"
+      },
+      {
+        "label": "C",
+        "text": "Departments with exactly 5 employees"
+      },
+      {
+        "label": "D",
+        "text": "Error: HAVING can't use COUNT()"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 69,
+    "topic": "HAVING",
+    "question": "SQL returns country and orders count where orders < 50?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT COUNT(OrderId), Country FROM Orders HAVING COUNT(OrderId) < 50; GROUP BY Country"
+      },
+      {
+        "label": "B",
+        "text": "SELECT Country, OrderId FROM Orders GROUP BY Country WHERE COUNT(OrderId) < 50;"
+      },
+      {
+        "label": "C",
+        "text": "SELECT COUNT(OrderId), Country FROM Orders GROUP BY Country HAVING COUNT(OrderId) < 50;"
+      },
+      {
+        "label": "D",
+        "text": "SELECT Country, OrderId FROM Orders WHERE Count(OrderId) < 50; GROUP BY Country"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 70,
+    "topic": "GROUP BY",
+    "question": "Query to check Sample Movie appears once. Has syntax error. How to fix? SELECT Title FROM Movie WHERE Title = 'Sample Movie' ORDER BY Title GROUP BY Title HAVING COUNT(*) = 1",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Remove GROUP BY clause"
+      },
+      {
+        "label": "B",
+        "text": "Change HAVING to HAVING COUNT(Title) = 1"
+      },
+      {
+        "label": "C",
+        "text": "Remove ORDER BY clause"
+      },
+      {
+        "label": "D",
+        "text": "Change HAVING to HAVING COUNT(1) = 1"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 71,
+    "topic": "JOIN",
+    "question": "What to use to combine columns from two different tables?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "AND"
+      },
+      {
+        "label": "B",
+        "text": "BETWEEN"
+      },
+      {
+        "label": "C",
+        "text": "JOIN"
+      },
+      {
+        "label": "D",
+        "text": "COMBINE"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 72,
+    "topic": "JOIN",
+    "question": "Student/Courses tables. Execute: SELECT students.name, courses.name FROM students OUTER JOIN courses WHERE student.courseID = courses.courseID. Error. How to correct?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "INNER JOIN courses WHERE students.courseID = courses.courseID"
+      },
+      {
+        "label": "B",
+        "text": "INNER JOIN courses ON students.courseID = courses.courseID"
+      },
+      {
+        "label": "C",
+        "text": "INNER JOIN ON students.courseID = courses.courseID"
+      },
+      {
+        "label": "D",
+        "text": "INNER JOIN On courses WHERE students.courseID = courses.courseID"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 73,
+    "topic": "JOIN",
+    "question": "Students, Courses, Enrollments tables. Return student name, course name, grade. Which SQL correct?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT s.FirstName, s.LastName, c.CourseName, e.Grade FROM Students s JOIN Enrollments e ON s.StudentID = e.StudentID JOIN Courses c ON e.CourseID = c.CourseID;"
+      },
+      {
+        "label": "B",
+        "text": "SELECT FirstName, LastName, CourseName, Grade FROM Students JOIN Courses ON Students.StudentID = Courses.CourseID JOIN Enrollments ON Students.StudentID = Enrollments.CourseID;"
+      },
+      {
+        "label": "C",
+        "text": "SELECT s.FirstName, s.LastName, c.CourseName, e.Grade FROM Students s, Courses c, Enrollments e WHERE s.StudentID = e.StudentID AND e.CourseID = c.CourseID;"
+      },
+      {
+        "label": "D",
+        "text": "SELECT s.FirstName, c.CourseName, e.Grade FROM Students s JOIN Enrollments e ON s.StudentID = c.CourseID JOIN Courses c ON e.CourseID = c.CourseID;"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 74,
+    "topic": "JOIN",
+    "question": "Cars/Color tables related by ColorId. Run: SELECT * FROM Cars LEFT OUTER JOIN Colors ON Cars.ColorID = Colors.ColorID. How many rows?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "6"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 75,
+    "topic": "JOIN",
+    "question": "Customer/Order tables joined by CustomerID. Results: all customers+orders, customers with no orders. Join type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Complete join"
+      },
+      {
+        "label": "B",
+        "text": "Partial join"
+      },
+      {
+        "label": "C",
+        "text": "Inner join"
+      },
+      {
+        "label": "D",
+        "text": "Full join"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 76,
+    "topic": "JOIN",
+    "question": "Two tables, each 3 rows. How many rows in Cartesian product?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "0"
+      },
+      {
+        "label": "B",
+        "text": "3"
+      },
+      {
+        "label": "C",
+        "text": "6"
+      },
+      {
+        "label": "D",
+        "text": "9"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 77,
+    "topic": "JOIN",
+    "question": "Execute: SELECT EmployeeID, FirstName, DepartmentName FROM Employee, Department; Operation called:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Intersection"
+      },
+      {
+        "label": "B",
+        "text": "Outer join"
+      },
+      {
+        "label": "C",
+        "text": "Equi-join"
+      },
+      {
+        "label": "D",
+        "text": "Cartesian product"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 78,
+    "topic": "UNION",
+    "question": "Clause to combine results of queries into single set including all rows?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "UNION"
+      },
+      {
+        "label": "B",
+        "text": "INTERSECT"
+      },
+      {
+        "label": "C",
+        "text": "GROUP BY"
+      },
+      {
+        "label": "D",
+        "text": "WHERE"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 79,
+    "topic": "EXCEPT",
+    "question": "Clause with SELECT returns values to exclude from another query's result?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "EXCEPT"
+      },
+      {
+        "label": "B",
+        "text": "INTERSECT"
+      },
+      {
+        "label": "C",
+        "text": "SEARCH"
+      },
+      {
+        "label": "D",
+        "text": "EXCLUDE"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 80,
+    "topic": "INTERSECT",
+    "question": "SQL operator takes results of two queries, returns only rows in both sets?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "UNION"
+      },
+      {
+        "label": "B",
+        "text": "INTERSECT"
+      },
+      {
+        "label": "C",
+        "text": "EXCEPT"
+      },
+      {
+        "label": "D",
+        "text": "JOIN"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 81,
+    "topic": "Subqueries",
+    "question": "Execute: SELECT DepartmentName FROM Department WHERE DepartmentID = (SELECT DepartmentID FROM Employee WHERE EmployeeID = 1234). Example of:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Subquery"
+      },
+      {
+        "label": "B",
+        "text": "Union"
+      },
+      {
+        "label": "C",
+        "text": "Outer join"
+      },
+      {
+        "label": "D",
+        "text": "Cartesian product"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 82,
+    "topic": "Subqueries",
+    "question": "What returns? SELECT DepartmentName FROM Department WHERE DepartmentID = ANY (SELECT DepartmentID FROM Employee WHERE JobTitle = 'Manager');",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Departments with at least one Manager"
+      },
+      {
+        "label": "B",
+        "text": "All employee names with Manager title"
+      },
+      {
+        "label": "C",
+        "text": "Departments where all are managers"
+      },
+      {
+        "label": "D",
+        "text": "Departments with > 1 manager"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 83,
+    "topic": "Subqueries",
+    "question": "What returns? SELECT EmployeeName FROM Employee WHERE Salary > ALL (SELECT Salary FROM Employee WHERE DepartmentID = 5);",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Employees with highest salary in company"
+      },
+      {
+        "label": "B",
+        "text": "Employees with salary higher than all in dept 5"
+      },
+      {
+        "label": "C",
+        "text": "All employees from dept 5"
+      },
+      {
+        "label": "D",
+        "text": "Employees with same salary as everyone in dept 5"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 84,
+    "topic": "Database Design",
+    "question": "ManufacturingDB: Machine/Operator many-to-many. OperatorID/MachineID in each table are:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "OperatorID PK in Operator, MachineID PK in Machine, Both FK in Machine_Operator"
+      },
+      {
+        "label": "B",
+        "text": "Both FK in all tables"
+      },
+      {
+        "label": "C",
+        "text": "OperatorID FK in Operator, MachineID FK in Machine"
+      },
+      {
+        "label": "D",
+        "text": "Both PK in Machine_Operator"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 85,
+    "topic": "Database Design",
+    "question": "Table with data. Database term for relationship between ProductID and ProductCategory?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Cohort"
+      },
+      {
+        "label": "B",
+        "text": "Relationally dependent"
+      },
+      {
+        "label": "C",
+        "text": "Deterministic"
+      },
+      {
+        "label": "D",
+        "text": "Functionally dependent"
+      },
+      {
+        "label": "E",
+        "text": "Compositional"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 86,
+    "topic": "Normalization",
+    "question": "Break table into two tables. This process is:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "defragmentation"
+      },
+      {
+        "label": "B",
+        "text": "normalization"
+      },
+      {
+        "label": "C",
+        "text": "fragmentation"
+      },
+      {
+        "label": "D",
+        "text": "denormalization"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 87,
+    "topic": "Normalization",
+    "question": "Normalize to first normal form. Which two requirements? (Choose 2)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Exclude repeating groups"
+      },
+      {
+        "label": "B",
+        "text": "Exclude foreign key"
+      },
+      {
+        "label": "C",
+        "text": "Exclude composite key"
+      },
+      {
+        "label": "D",
+        "text": "Exclude duplicate rows"
+      }
+    ],
+    "correct": [
+      "A",
+      "D"
+    ]
+  },
+  {
+    "id": 88,
+    "topic": "Normalization",
+    "question": "When you define primary key, you met criteria for:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "1NF"
+      },
+      {
+        "label": "B",
+        "text": "2NF"
+      },
+      {
+        "label": "C",
+        "text": "3NF"
+      },
+      {
+        "label": "D",
+        "text": "4NF"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 89,
+    "topic": "Normalization",
+    "question": "Table with composite key. Non-key attribute depends on entire composite key. Which normal form?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "4 NF"
+      },
+      {
+        "label": "B",
+        "text": "2 NF"
+      },
+      {
+        "label": "C",
+        "text": "1 NF"
+      },
+      {
+        "label": "D",
+        "text": "3 NF"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 90,
+    "topic": "Normalization",
+    "question": "Author table: composite key (AuthorID, TitleID), AuthorID+TitleID->Royalty, AuthorID->LiteraryAgent. Which statement correct?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Violates 4 NF"
+      },
+      {
+        "label": "B",
+        "text": "Violates 2 NF"
+      },
+      {
+        "label": "C",
+        "text": "Violates 1 NF"
+      },
+      {
+        "label": "D",
+        "text": "No violation"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 91,
+    "topic": "Normalization",
+    "question": "Remove columns not dependent on primary key. Which normal form helps?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "4 NF"
+      },
+      {
+        "label": "B",
+        "text": "6 NF"
+      },
+      {
+        "label": "C",
+        "text": "5 NF"
+      },
+      {
+        "label": "D",
+        "text": "3 NF"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 92,
+    "topic": "Normalization",
+    "question": "Restaurant recipe data. Normalize to third normal form. How many tables?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "1"
+      },
+      {
+        "label": "B",
+        "text": "2"
+      },
+      {
+        "label": "C",
+        "text": "3"
+      },
+      {
+        "label": "D",
+        "text": "4"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 93,
+    "topic": "Normalization",
+    "question": "Pet Competition Winners table. Which column prevents third normal form?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "PetID"
+      },
+      {
+        "label": "B",
+        "text": "Birthdate"
+      },
+      {
+        "label": "C",
+        "text": "ID"
+      },
+      {
+        "label": "D",
+        "text": "Year"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 94,
+    "topic": "Denormalization",
+    "question": "Denormalization performed to:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Reduce redundancy"
+      },
+      {
+        "label": "B",
+        "text": "Eliminate repeating groups"
+      },
+      {
+        "label": "C",
+        "text": "Create smaller tables"
+      },
+      {
+        "label": "D",
+        "text": "Improve query performance"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 95,
+    "topic": "Denormalization",
+    "question": "Evaluate underlined: Combine 3 tables into 1. New table has redundancy to optimize reads. Data has been denormalized. If correct \"No change needed\", else select correct.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "Normalized"
+      },
+      {
+        "label": "C",
+        "text": "Truncated"
+      },
+      {
+        "label": "D",
+        "text": "Indexed"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 96,
+    "topic": "DDL - Database",
+    "question": "SQL statement to create new database called testDB?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE DATABASE testdb;"
+      },
+      {
+        "label": "B",
+        "text": "CREATE testDB DATABASE;"
+      },
+      {
+        "label": "C",
+        "text": "CREATE DATABASE 'testDB';"
+      },
+      {
+        "label": "D",
+        "text": "CREATE DATABASE testDB;"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 97,
+    "topic": "DDL - Database",
+    "question": "SQL command to change database context?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT"
+      },
+      {
+        "label": "B",
+        "text": "ALTER"
+      },
+      {
+        "label": "C",
+        "text": "USE"
+      },
+      {
+        "label": "D",
+        "text": "UPDATE"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 98,
+    "topic": "DDL - Database",
+    "question": "SQL to delete database named testDB?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "DELETE DATABASE testDB"
+      },
+      {
+        "label": "B",
+        "text": "DROP DATABASE testDB"
+      },
+      {
+        "label": "C",
+        "text": "REMOVE DATABASE testDB"
+      },
+      {
+        "label": "D",
+        "text": "CLEAR DATABASE testDB"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 99,
+    "topic": "DDL - Table",
+    "question": "Evaluate underlined: Use ALTER statement to add new table. If correct \"No change needed\", else correct answer.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "UPDATE"
+      },
+      {
+        "label": "C",
+        "text": "INSERT"
+      },
+      {
+        "label": "D",
+        "text": "CREATE"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 100,
+    "topic": "DDL - Table",
+    "question": "Creating Student object to store ID, Name, Age. Which syntax?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE TABLE Student (ID INT, Name VARCHAR(100), Age INT)"
+      },
+      {
+        "label": "B",
+        "text": "CREATE (TABLE Student ID INT, Name VARCHAR(100), Age INT)"
+      },
+      {
+        "label": "C",
+        "text": "CREATE Student (ID INT, Name VARCHAR(100), Age INT)"
+      },
+      {
+        "label": "D",
+        "text": "CREATE TABLE ID INT, Name VARCHAR(100), Age INT)"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 101,
+    "topic": "DDL - Table",
+    "question": "Charity website: volunteers need unique ID, given name, surname, DOB, phone, photo. Match SQL to create table.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE TABLE Volunteer with appropriate columns"
+      },
+      {
+        "label": "B",
+        "text": "Use IDENTITY for unique ID"
+      },
+      {
+        "label": "C",
+        "text": "VARCHAR for names"
+      },
+      {
+        "label": "D",
+        "text": "All of the above"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 102,
+    "topic": "DDL - Constraints",
+    "question": "Statement creates composite key:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "PRIMARY KEY (col1, col2)"
+      },
+      {
+        "label": "B",
+        "text": "PRIMARY KEY col1, col2"
+      },
+      {
+        "label": "C",
+        "text": "COMPOSITE KEY (col1, col2)"
+      },
+      {
+        "label": "D",
+        "text": "KEY (col1, col2)"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 103,
+    "topic": "DDL - Constraints",
+    "question": "SQL statement creating table. Which two SQL keywords valid? (Choose 2)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Order By"
+      },
+      {
+        "label": "B",
+        "text": "Primary Key"
+      },
+      {
+        "label": "C",
+        "text": "Insert Into"
+      },
+      {
+        "label": "D",
+        "text": "Constraint"
+      }
+    ],
+    "correct": [
+      "B",
+      "D"
+    ]
+  },
+  {
+    "id": 104,
+    "topic": "DDL - Constraints",
+    "question": "Can PRIMARY KEY column contain NULL values?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Yes, one NULL value"
+      },
+      {
+        "label": "B",
+        "text": "No, cannot contain any NULL values"
+      },
+      {
+        "label": "C",
+        "text": "Yes, but only if table empty"
+      },
+      {
+        "label": "D",
+        "text": "Depends on DBMS"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 105,
+    "topic": "DDL - Constraints",
+    "question": "Can column with UNIQUE constraint contain NULL values?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Yes, one NULL value"
+      },
+      {
+        "label": "B",
+        "text": "Yes, unlimited NULL values"
+      },
+      {
+        "label": "C",
+        "text": "No, cannot contain NULL"
+      },
+      {
+        "label": "D",
+        "text": "UNIQUE constraint does not apply to NULL"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 106,
+    "topic": "DDL - Constraints",
+    "question": "Which keyword can be used in create table statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ORDER BY"
+      },
+      {
+        "label": "B",
+        "text": "DISTINCT"
+      },
+      {
+        "label": "C",
+        "text": "GROUP BY"
+      },
+      {
+        "label": "D",
+        "text": "UNIQUE"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 107,
+    "topic": "DDL - Auto Increment",
+    "question": "Why use AUTO INCREMENT feature in database table?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Manually set primary key value"
+      },
+      {
+        "label": "B",
+        "text": "Automatically create unique primary key for each record"
+      },
+      {
+        "label": "C",
+        "text": "Allow duplicate values in primary key"
+      },
+      {
+        "label": "D",
+        "text": "Limit number of records"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 108,
+    "topic": "DDL - Auto Increment",
+    "question": "Which field typically uses AUTO INCREMENT feature?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Address field"
+      },
+      {
+        "label": "B",
+        "text": "City field"
+      },
+      {
+        "label": "C",
+        "text": "Primary Key field"
+      },
+      {
+        "label": "D",
+        "text": "Foreign Key field"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 109,
+    "topic": "DDL - Auto Increment",
+    "question": "SQL Server keyword to make ID auto-increment? CREATE TABLE Persons (ID int ___ PRIMARY KEY, ...)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "AUTO_INCREMENT"
+      },
+      {
+        "label": "B",
+        "text": "IDENTITY(1,1)"
+      },
+      {
+        "label": "C",
+        "text": "DEFAULT"
+      },
+      {
+        "label": "D",
+        "text": "SERIAL"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 110,
+    "topic": "DDL - Foreign Key",
+    "question": "Purpose of FOREIGN KEY in database?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Uniquely identify each record"
+      },
+      {
+        "label": "B",
+        "text": "Point to PRIMARY KEY in another table"
+      },
+      {
+        "label": "C",
+        "text": "Allow duplicate values in column"
+      },
+      {
+        "label": "D",
+        "text": "Store NULL values in table"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 111,
+    "topic": "DDL - ALTER",
+    "question": "Command to add column to existing table?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "MODIFY"
+      },
+      {
+        "label": "B",
+        "text": "ALTER"
+      },
+      {
+        "label": "C",
+        "text": "UPDATE"
+      },
+      {
+        "label": "D",
+        "text": "INSERT"
+      },
+      {
+        "label": "E",
+        "text": "CHANGE"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 112,
+    "topic": "DDL - ALTER",
+    "question": "ALTER TABLE statement used for?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Add/drop constraints on existing table"
+      },
+      {
+        "label": "B",
+        "text": "Add, delete, modify columns in existing table"
+      },
+      {
+        "label": "C",
+        "text": "Update data in table"
+      },
+      {
+        "label": "D",
+        "text": "Both A and B"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 113,
+    "topic": "DDL - ALTER",
+    "question": "Need to rename column in database table. Which DDL statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ALTER"
+      },
+      {
+        "label": "B",
+        "text": "INSERT"
+      },
+      {
+        "label": "C",
+        "text": "CREATE"
+      },
+      {
+        "label": "D",
+        "text": "UPDATE"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 114,
+    "topic": "DDL - ALTER",
+    "question": "Statement to remove foreign key?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ALTER TABLE"
+      },
+      {
+        "label": "B",
+        "text": "DELETE TABLE"
+      },
+      {
+        "label": "C",
+        "text": "DELETE FOREIGN KEY"
+      },
+      {
+        "label": "D",
+        "text": "ALTER FOREIGN KEY"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 115,
+    "topic": "DDL - ALTER",
+    "question": "Developer adds BirthDate NOT NULL, gets error. Cause and fix? ALTER TABLE Person ADD BirthDate date NOT NULL;",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ALTER TABLE Person ADD BirthDate varchar(10) NOT NULL;"
+      },
+      {
+        "label": "B",
+        "text": "ALTER TABLE Person ADD BirthDate date DEFAULT '1900-01-01' NOT NULL;"
+      },
+      {
+        "label": "C",
+        "text": "ALTER TABLE Person ADD BirthDate int NOT NULL;"
+      },
+      {
+        "label": "D",
+        "text": "ALTER TABLE Person ADD BirthDate date NULL;"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 116,
+    "topic": "DDL - ALTER",
+    "question": "Developer adds Prefix NOT NULL, error. Likely cause? ALTER TABLE Person ADD Prefix varchar(4) NOT NULL;",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Person table is empty"
+      },
+      {
+        "label": "B",
+        "text": "Run DROP CONSTRAINT before ALTER TABLE"
+      },
+      {
+        "label": "C",
+        "text": "varchar(4) invalid for Person"
+      },
+      {
+        "label": "D",
+        "text": "DEFAULT keyword should specify default value"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 117,
+    "topic": "DDL - ALTER",
+    "question": "Customer table. Add new District column. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "MODIFY TABLE Customer ADD District INTEGER"
+      },
+      {
+        "label": "B",
+        "text": "ALTER TABLE Customer MODIFY District INTEGER"
+      },
+      {
+        "label": "C",
+        "text": "MODIFY TABLE Customer District INTEGER"
+      },
+      {
+        "label": "D",
+        "text": "ALTER TABLE Customer ADD District INTEGER"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 118,
+    "topic": "DDL - ALTER",
+    "question": "How to remove column using ALTER statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ALTER TABLE table_name REMOVE COLUMN column_name"
+      },
+      {
+        "label": "B",
+        "text": "ALTER TABLE table_name DROP column_name"
+      },
+      {
+        "label": "C",
+        "text": "ALTER TABLE table_name DROP COLUMN column_name"
+      },
+      {
+        "label": "D",
+        "text": "ALTER TABLE table_name DELETE column_name"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 119,
+    "topic": "DDL - ALTER",
+    "question": "Remove SSN from Customers. ALTER TABLE Customers REMOVE SSN; causes error. What changes needed?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ALTER TABLE Customers DELETE SSN;"
+      },
+      {
+        "label": "B",
+        "text": "ALTER TABLE Customers DELETE COLUMN SSN;"
+      },
+      {
+        "label": "C",
+        "text": "ALTER TABLE Customers DROP SSN;"
+      },
+      {
+        "label": "D",
+        "text": "ALTER TABLE Customers DROP COLUMN SSN;"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 120,
+    "topic": "DDL - DROP",
+    "question": "Evaluate underlined: CREATE TABLE command removes table definitions. If correct \"No change needed\", else correct answer.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "DROP TABLE"
+      },
+      {
+        "label": "C",
+        "text": "TRUNCATE TABLE"
+      },
+      {
+        "label": "D",
+        "text": "ALTER TABLE"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 121,
+    "topic": "DDL - DROP",
+    "question": "Statement to delete Equipment table?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "DELETE TABLE Equipment"
+      },
+      {
+        "label": "B",
+        "text": "DROP TABLE Equipment"
+      },
+      {
+        "label": "C",
+        "text": "REMOVE TABLE Equipment"
+      },
+      {
+        "label": "D",
+        "text": "TRUNCATE TABLE Equipment"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 122,
+    "topic": "DDL - TRUNCATE",
+    "question": "Evaluate underlined: DELETE TABLE removes all rows without logging. If correct \"No change needed\", else correct.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "DROP TABLE"
+      },
+      {
+        "label": "C",
+        "text": "TRUNCATE TABLE"
+      },
+      {
+        "label": "D",
+        "text": "REMOVE TABLE"
+      },
+      {
+        "label": "E",
+        "text": "CLEAR TABLE"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 123,
+    "topic": "DML",
+    "question": "Language element for INSERT, UPDATE, DELETE statements?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "DML"
+      },
+      {
+        "label": "B",
+        "text": "DDE"
+      },
+      {
+        "label": "C",
+        "text": "DDL"
+      },
+      {
+        "label": "D",
+        "text": "DAT"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 124,
+    "topic": "DML",
+    "question": "Three valid DML commands? (Choose 3)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "INSERT"
+      },
+      {
+        "label": "B",
+        "text": "COMMIT"
+      },
+      {
+        "label": "C",
+        "text": "DELETE"
+      },
+      {
+        "label": "D",
+        "text": "OUTPUT"
+      },
+      {
+        "label": "E",
+        "text": "UPDATE"
+      }
+    ],
+    "correct": [
+      "A",
+      "C",
+      "E"
+    ]
+  },
+  {
+    "id": 125,
+    "topic": "DML - INSERT",
+    "question": "In SQL, insert statement adds a:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "User to database"
+      },
+      {
+        "label": "B",
+        "text": "Row of data to table"
+      },
+      {
+        "label": "C",
+        "text": "Table to database"
+      },
+      {
+        "label": "D",
+        "text": "Column to table definition"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 126,
+    "topic": "DML - INSERT",
+    "question": "On which structure does insert statement operate?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Role"
+      },
+      {
+        "label": "B",
+        "text": "Trigger"
+      },
+      {
+        "label": "C",
+        "text": "User"
+      },
+      {
+        "label": "D",
+        "text": "Stored procedure"
+      },
+      {
+        "label": "E",
+        "text": "Table"
+      }
+    ],
+    "correct": [
+      "E"
+    ]
+  },
+  {
+    "id": 127,
+    "topic": "DML - INSERT",
+    "question": "Need to add rows to database table. Which SQL keyword?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "JOIN"
+      },
+      {
+        "label": "B",
+        "text": "INSERT"
+      },
+      {
+        "label": "C",
+        "text": "CREATE"
+      },
+      {
+        "label": "D",
+        "text": "UPDATE"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 128,
+    "topic": "DML - INSERT",
+    "question": "Statement to add data to table?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ADD"
+      },
+      {
+        "label": "B",
+        "text": "INSERT"
+      },
+      {
+        "label": "C",
+        "text": "JOIN"
+      },
+      {
+        "label": "D",
+        "text": "PRESENT"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 129,
+    "topic": "DML - INSERT",
+    "question": "Which SQL statement is DML?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ALTER TABLE Employee ADD EmployeeName Varchar;"
+      },
+      {
+        "label": "B",
+        "text": "SELECT EmployeeName FROM Employee WHERE EmployeeName = 'Jack Smith';"
+      },
+      {
+        "label": "C",
+        "text": "SELECT * INTO Employee FROM NewHires"
+      },
+      {
+        "label": "D",
+        "text": "INSERT INTO Employee VALUES ('Jack Smith');"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 130,
+    "topic": "DML - INSERT",
+    "question": "Road table: RoadID, Distance (both NOT NULL). Contains data. Execute: INSERT INTO Road VALUES (1234, 36). Result?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Error: NULL values not allowed"
+      },
+      {
+        "label": "B",
+        "text": "New row in table"
+      },
+      {
+        "label": "C",
+        "text": "Error: duplicate IDs not allowed"
+      },
+      {
+        "label": "D",
+        "text": "Syntax error"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 131,
+    "topic": "DML - INSERT",
+    "question": "Product table: ProductID, Name. Insert Plate with ID 12345. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "INSERT INTO Product VALUES (ProductID= 12345, Name = 'Plate')"
+      },
+      {
+        "label": "B",
+        "text": "INSERT NEW ProductID = 12345, Name = 'Plate' INTO Product"
+      },
+      {
+        "label": "C",
+        "text": "INSERT 12345, 'Plate' INTO Product"
+      },
+      {
+        "label": "D",
+        "text": "INSERT INTO Product (ProductID, Name) VALUES (12345, 'Plate')"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 132,
+    "topic": "DML - INSERT",
+    "question": "Insert two products: Book (ID 125), Movie (ID 126). Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "INSERT INTO Product VALUES (ID= 125, 126) (Name ='Book', 'Movie')"
+      },
+      {
+        "label": "B",
+        "text": "INSERT INTO Product (ID, Name) VALUES (125, 'Book') INSERT INTO Product (ID, Name) VALUES (126, 'Movie')"
+      },
+      {
+        "label": "C",
+        "text": "INSERT 125, 126, 'Book', 'Movie' INTO Product"
+      },
+      {
+        "label": "D",
+        "text": "INSERT NEW ID = 125 AND 126, Name = 'Book' AND 'Movie' INTO Product"
+      },
+      {
+        "label": "E",
+        "text": "INSERT NEW ID = 125, Name = 'Book' INTO Product INSERT NEW ID = 126, Name = 'Movie' INTO Product"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 133,
+    "topic": "DML - INSERT",
+    "question": "AddressInfo table: StreetAddress, City, State, PostalCode. Insert '1234 Main Street', 'Dallas', 'TX', '75201'. Which two statements work? (Choose 2)",
+    "answers": [
+      {
+        "label": "A",
+        "text": "INSERT INTO AddressInfo ('1234 Main Street', 'Dallas', 'TX', '75201') VALUES ([StreetAddress], [City], [State], [PostalCode])"
+      },
+      {
+        "label": "B",
+        "text": "INSERT INTO AddressInfo ([StreetAddress], [City], [State], [PostalCode]) VALUES ('1234 Main Street', 'Dallas', 'TX', '75201')"
+      },
+      {
+        "label": "C",
+        "text": "INSERT INTO AddressInfo VALUES ('1234 Main Street', 'Dallas', 'TX', '75201')"
+      },
+      {
+        "label": "D",
+        "text": "UPDATE AddressInfo SET [StreetAddress]='1234 Main Street', [City]='Dallas', [State]='TX', [PostalCode]='75201'"
+      }
+    ],
+    "correct": [
+      "B",
+      "C"
+    ]
+  },
+  {
+    "id": 134,
+    "topic": "DML - INSERT",
+    "question": "Product table: ProductID PK, CategoryID FK. Execute: INSERT INTO Product VALUES (3296, 'Table', 4444). Result?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Foreign key constraint violation"
+      },
+      {
+        "label": "B",
+        "text": "Syntax error"
+      },
+      {
+        "label": "C",
+        "text": "New row in Product"
+      },
+      {
+        "label": "D",
+        "text": "Primary key constraint violation"
+      },
+      {
+        "label": "E",
+        "text": "New row in Category"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 135,
+    "topic": "DML - INSERT",
+    "question": "Populate EmployeeCopy with data from Employee. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT * INTO EmployeeCopy SELECT * FROM Employee"
+      },
+      {
+        "label": "B",
+        "text": "INSERT * FROM Employee INTO EmployeeCopy"
+      },
+      {
+        "label": "C",
+        "text": "COPY INTO Employee SELECT * FROM Employee"
+      },
+      {
+        "label": "D",
+        "text": "INSERT INTO EmployeeCopy SELECT * FROM Employee"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 136,
+    "topic": "DML - UPDATE",
+    "question": "On which structure does update statement operate?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Table"
+      },
+      {
+        "label": "B",
+        "text": "User"
+      },
+      {
+        "label": "C",
+        "text": "Trigger"
+      },
+      {
+        "label": "D",
+        "text": "Role"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 137,
+    "topic": "DML - UPDATE",
+    "question": "Table with student info. SQL keyword to change student's first name?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "UPDATE"
+      },
+      {
+        "label": "B",
+        "text": "CHANGE"
+      },
+      {
+        "label": "C",
+        "text": "SELECT"
+      },
+      {
+        "label": "D",
+        "text": "INSERT"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 138,
+    "topic": "DML - UPDATE",
+    "question": "Statement to change data in table?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CHANGE"
+      },
+      {
+        "label": "B",
+        "text": "MODIFY"
+      },
+      {
+        "label": "C",
+        "text": "INSERT"
+      },
+      {
+        "label": "D",
+        "text": "UPDATE"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 139,
+    "topic": "DML - UPDATE",
+    "question": "Product table: product IDs and names. Write UPDATE to change name to glass. What to include?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SET ProductName = 'glass'"
+      },
+      {
+        "label": "B",
+        "text": "LET ProductName = 'glass'"
+      },
+      {
+        "label": "C",
+        "text": "EXEC ProductName = 'glass'"
+      },
+      {
+        "label": "D",
+        "text": "ASSIGN ProductName = 'glass'"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 140,
+    "topic": "DML - UPDATE",
+    "question": "Product table: ProductID, Name, Price. UPDATE to set InStock to Yes for specific ProductID. Which clause?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "THAT"
+      },
+      {
+        "label": "B",
+        "text": "WHERE"
+      },
+      {
+        "label": "C",
+        "text": "GROUP BY"
+      },
+      {
+        "label": "D",
+        "text": "HAVING"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 141,
+    "topic": "DML - UPDATE",
+    "question": "What happens if you omit WHERE clause in UPDATE?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No records updated"
+      },
+      {
+        "label": "B",
+        "text": "Only first record updated"
+      },
+      {
+        "label": "C",
+        "text": "All records updated"
+      },
+      {
+        "label": "D",
+        "text": "Query fails with error"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 142,
+    "topic": "DML - UPDATE",
+    "question": "Students table helping at Science Fair. Benjamin replaced by Kayden. Complete query: ___ ___ ___ ___",
+    "answers": [
+      {
+        "label": "A",
+        "text": "UPDATE Students"
+      },
+      {
+        "label": "B",
+        "text": "SET FirstName = 'Kayden'"
+      },
+      {
+        "label": "C",
+        "text": "WHERE FirstName = 'Benjamin'"
+      },
+      {
+        "label": "D",
+        "text": "All of the above"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 143,
+    "topic": "DML - UPDATE",
+    "question": "LoanedBooks table. Harry in San Francisco returns books. Which statement updates correctly?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "UPDATE LoanedBooks SET Books = 0 WHERE (Name = 'Harry' AND City = 'San Francisco')"
+      },
+      {
+        "label": "B",
+        "text": "UPDATE LoanedBooks SET Books = 0 WHERE (Name = 'Harry' OR City = 'San Francisco')"
+      },
+      {
+        "label": "C",
+        "text": "UPDATE LoanedBooks SET Books = 0 WHERE (Name in 'Harry', 'San Francisco')"
+      },
+      {
+        "label": "D",
+        "text": "INSERT INTO LoanedBooks SET Books = 0 WHERE ID =4"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 144,
+    "topic": "DML - UPDATE",
+    "question": "Product table: ProductDescription, ProductCategory. Change ProductCategory to 43 for all spoons. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "UPDATE Product SET ProductCategory = 43 WHERE ProductDescription = 'spoon'"
+      },
+      {
+        "label": "B",
+        "text": "SET Product WHERE ProductDescription = 'spoon' TO ProductCategory = 43"
+      },
+      {
+        "label": "C",
+        "text": "UPDATE Product WHERE ProductDescription = 'spoon' SET ProductCategory = 43"
+      },
+      {
+        "label": "D",
+        "text": "SET Product TO ProductCategory = 43 WHERE ProductDescription = 'spoon'"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 145,
+    "topic": "DML - UPDATE",
+    "question": "Volunteer table. Change Tia's name to Kimberly. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SET GivenName = 'Kimberly' FROM Volunteer WHERE GivenName = 'Tia'"
+      },
+      {
+        "label": "B",
+        "text": "SET Volunteer TO GivenName = 'Kimberly' WHERE GivenName = 'Tia'"
+      },
+      {
+        "label": "C",
+        "text": "UPDATE GivenName = 'Kimberly' FROM Volunteer WHERE GivenName = 'Tia'"
+      },
+      {
+        "label": "D",
+        "text": "UPDATE Volunteer SET GivenName = 'Kimberly' WHERE GivenName = 'Tia'"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 146,
+    "topic": "DML - UPDATE",
+    "question": "Products table. Increase price of item 1 by 6 percent. Which query?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "USE Products SET Price = Price * 1.06 WHERE ItemNumber = 1;"
+      },
+      {
+        "label": "B",
+        "text": "SET Price = Price * 1.06 FROM Products WHERE ItemNumber = 1;"
+      },
+      {
+        "label": "C",
+        "text": "ALTER Products SET Price = Price * 1.06 WHERE ItemNumber = 1;"
+      },
+      {
+        "label": "D",
+        "text": "UPDATE Products SET Price = Price * 1.06 WHERE ItemNumber = 1;"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 147,
+    "topic": "DML - DELETE",
+    "question": "Statement to remove records from table?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "REMOVE"
+      },
+      {
+        "label": "B",
+        "text": "TRUNCATE"
+      },
+      {
+        "label": "C",
+        "text": "DELETE"
+      },
+      {
+        "label": "D",
+        "text": "ERASE"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 148,
+    "topic": "DML - DELETE",
+    "question": "One difference between update and delete statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Update can change only one row"
+      },
+      {
+        "label": "B",
+        "text": "Delete cannot use WHERE clause"
+      },
+      {
+        "label": "C",
+        "text": "Update does not remove rows from table"
+      },
+      {
+        "label": "D",
+        "text": "Delete works only in stored procedure"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 149,
+    "topic": "DML - DELETE",
+    "question": "Volunteer table. Delete all records with GivenName Tia. Which SQL?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "DELETE FROM Volunteer WHERE GivenName == 'Tia'"
+      },
+      {
+        "label": "B",
+        "text": "DELETE FROM Volunteer WHERE GivenName = 'Tia'"
+      },
+      {
+        "label": "C",
+        "text": "DELETE FROM Volunteer WHERE GivenName EQUALS 'Tia'"
+      },
+      {
+        "label": "D",
+        "text": "DELETE FROM Volunteer WHERE GivenName IS 'Tia'"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 150,
+    "topic": "DML - DELETE",
+    "question": "Customer table. Delete record with CustomerID 12345. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "UPDATE Customer DELETE * WHERE CustomerID = 12345"
+      },
+      {
+        "label": "B",
+        "text": "DELETE CustomerID FROM Customer WHERE CustomerID = 12345"
+      },
+      {
+        "label": "C",
+        "text": "UPDATE CustomerID FROM Customer DELETE * WHERE CustomerID = 12345"
+      },
+      {
+        "label": "D",
+        "text": "DELETE FROM Customer WHERE CustomerID = 12345"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 151,
+    "topic": "DML - DELETE",
+    "question": "Delete rows where employee phone number not entered. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "DELETE FROM Employee WHERE Phone IS NULL"
+      },
+      {
+        "label": "B",
+        "text": "DELETE FROM Employee WHERE Phone IS NOT NULL"
+      },
+      {
+        "label": "C",
+        "text": "DELETE FROM Employee WHERE Phone = '%'"
+      },
+      {
+        "label": "D",
+        "text": "DELETE FROM Employee WHERE Phone = NULLABLE"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 152,
+    "topic": "DML - DELETE",
+    "question": "Select Yes/No: A. DELETE removes records B. REMOVE marks for deallocation C. TRUNCATE removes data without logging D. DROP removes records only",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A: Yes, B: No, C: Yes, D: No"
+      },
+      {
+        "label": "B",
+        "text": "A: No, B: Yes, C: No, D: Yes"
+      },
+      {
+        "label": "C",
+        "text": "A: Yes, B: Yes, C: No, D: No"
+      },
+      {
+        "label": "D",
+        "text": "A: No, B: No, C: Yes, D: Yes"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 153,
+    "topic": "DML - DELETE",
+    "question": "Customer/Order tables. Execute: DELETE FROM Order WHERE CustomerID = 209. Result?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "First order for CustomerID 209 deleted"
+      },
+      {
+        "label": "B",
+        "text": "All orders for 209 deleted from Order, 209 deleted from Customer"
+      },
+      {
+        "label": "C",
+        "text": "All orders for CustomerID 209 deleted from Order"
+      },
+      {
+        "label": "D",
+        "text": "CustomerID 209 deleted from Customer"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 154,
+    "topic": "DML - DELETE",
+    "question": "Student table has 100 rows, some NULL in FirstName. Execute: DELETE FROM Student; Result?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "All rows deleted"
+      },
+      {
+        "label": "B",
+        "text": "Rows with NULL in FirstName deleted"
+      },
+      {
+        "label": "C",
+        "text": "Receive error message"
+      },
+      {
+        "label": "D",
+        "text": "All rows and table definition deleted"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 155,
+    "topic": "Indexes",
+    "question": "Product table with 1M rows. Search by unique ID. What makes search efficient?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A cursor"
+      },
+      {
+        "label": "B",
+        "text": "A subquery"
+      },
+      {
+        "label": "C",
+        "text": "A trigger"
+      },
+      {
+        "label": "D",
+        "text": "An index"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 156,
+    "topic": "Indexes",
+    "question": "Query: SELECT * FROM ProAthlete WHERE Salary > 500000 takes too long. What to add to Salary column?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Non-null constraint"
+      },
+      {
+        "label": "B",
+        "text": "Default constraint"
+      },
+      {
+        "label": "C",
+        "text": "Index"
+      },
+      {
+        "label": "D",
+        "text": "Foreign key"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 157,
+    "topic": "Indexes",
+    "question": "One reason to add an index is to:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Decrease storage space"
+      },
+      {
+        "label": "B",
+        "text": "Increase database security"
+      },
+      {
+        "label": "C",
+        "text": "Improve performance of select statements"
+      },
+      {
+        "label": "D",
+        "text": "Improve performance of insert statements"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 158,
+    "topic": "Indexes",
+    "question": "You create index on table containing data. Result in database?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "More rows added to indexed table"
+      },
+      {
+        "label": "B",
+        "text": "More columns added to indexed table"
+      },
+      {
+        "label": "C",
+        "text": "Separate structure created containing data from indexed table"
+      },
+      {
+        "label": "D",
+        "text": "Separate structure created not containing data from indexed table"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 159,
+    "topic": "Indexes",
+    "question": "Terms \"bitmap,\" \"b-tree,\" \"hash\" refer to which database structure?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "View"
+      },
+      {
+        "label": "B",
+        "text": "Function"
+      },
+      {
+        "label": "C",
+        "text": "Index"
+      },
+      {
+        "label": "D",
+        "text": "Stored procedure"
+      },
+      {
+        "label": "E",
+        "text": "Trigger"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 160,
+    "topic": "Indexes",
+    "question": "Identify characteristics as clustered or non-clustered: A. Sorts data on column in table B. Stores data in separate structure",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A: Clustered, B: Non-clustered"
+      },
+      {
+        "label": "B",
+        "text": "A: Non-clustered, B: Clustered"
+      },
+      {
+        "label": "C",
+        "text": "A: Both, B: Neither"
+      },
+      {
+        "label": "D",
+        "text": "A: Neither, B: Both"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 161,
+    "topic": "Indexes",
+    "question": "Which index type changes order data is stored in table?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "non-sequential"
+      },
+      {
+        "label": "B",
+        "text": "sequential"
+      },
+      {
+        "label": "C",
+        "text": "non-clustered"
+      },
+      {
+        "label": "D",
+        "text": "clustered"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 162,
+    "topic": "Indexes",
+    "question": "Product table (1M rows). Search WHERE Category = 'Science Books'. What makes search efficient?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Clustered index on ProductName"
+      },
+      {
+        "label": "B",
+        "text": "Clustered index on Price"
+      },
+      {
+        "label": "C",
+        "text": "Non-clustered index on Category"
+      },
+      {
+        "label": "D",
+        "text": "Non-clustered index on Price"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 163,
+    "topic": "Indexes",
+    "question": "Flight table. Use dropdowns: Adding ___ on FlightNumber physically sorts rows. Adding ___ on Airline retrieves faster, not physically sort.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "clustered index, non-clustered index"
+      },
+      {
+        "label": "B",
+        "text": "non-clustered index, clustered index"
+      },
+      {
+        "label": "C",
+        "text": "primary key, foreign key"
+      },
+      {
+        "label": "D",
+        "text": "foreign key, primary key"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 164,
+    "topic": "Indexes",
+    "question": "Complete: Clustered index improves performance of queries that ___. Clustered index improves performance on columns that ___.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "scan entire table, are frequently searched"
+      },
+      {
+        "label": "B",
+        "text": "use WHERE clause, have many duplicates"
+      },
+      {
+        "label": "C",
+        "text": "return all rows, are sorted"
+      },
+      {
+        "label": "D",
+        "text": "use joins, are numeric"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 165,
+    "topic": "Indexes",
+    "question": "Which statement creates an index?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE TABLE Employee (EmployeeID INTEGER PRIMARY KEY)"
+      },
+      {
+        "label": "B",
+        "text": "CREATE TABLE Employee (EmployeeID INTEGER DISTINCT)"
+      },
+      {
+        "label": "C",
+        "text": "CREATE TABLE Employee (EmployeeID INTEGER NULL)"
+      },
+      {
+        "label": "D",
+        "text": "CREATE TABLE Employee (EmployeeID INTEGER INDEX)"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 166,
+    "topic": "Views",
+    "question": "What is a view?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Virtual table created by query joining tables"
+      },
+      {
+        "label": "B",
+        "text": "Command to recover table content"
+      },
+      {
+        "label": "C",
+        "text": "Physical copy of table"
+      },
+      {
+        "label": "D",
+        "text": "Result of query execution"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 167,
+    "topic": "Views",
+    "question": "Evaluate underlined: View can ensure referential integrity. If correct \"No change needed\", else correct.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "Save extra copy of data in separate table"
+      },
+      {
+        "label": "C",
+        "text": "Limit access to specific rows or columns"
+      },
+      {
+        "label": "D",
+        "text": "Save historical data before deleting from base table"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 168,
+    "topic": "Views",
+    "question": "What happens when you query a view?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Database retrieves pre-stored static data"
+      },
+      {
+        "label": "B",
+        "text": "Database engine refreshes view using latest data"
+      },
+      {
+        "label": "C",
+        "text": "View converted into real table"
+      },
+      {
+        "label": "D",
+        "text": "Query ignored if view not indexed"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 169,
+    "topic": "Views",
+    "question": "Product table. Create view with Furniture category products. Delete all Furniture from Product. View result set is:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Empty"
+      },
+      {
+        "label": "B",
+        "text": "Deleted"
+      },
+      {
+        "label": "C",
+        "text": "Unchanged"
+      },
+      {
+        "label": "D",
+        "text": "Archived"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 170,
+    "topic": "Views",
+    "question": "Syntax for creating views is:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE VIEW AS SELECT"
+      },
+      {
+        "label": "B",
+        "text": "CREATE VIEW AS UPDATE"
+      },
+      {
+        "label": "C",
+        "text": "DROP VIEW AS SELECT"
+      },
+      {
+        "label": "D",
+        "text": "CREATE VIEW AS UPDATE"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 171,
+    "topic": "Views",
+    "question": "Which keyword must be included in create view statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "WHERE"
+      },
+      {
+        "label": "B",
+        "text": "ORDER BY"
+      },
+      {
+        "label": "C",
+        "text": "UPDATE"
+      },
+      {
+        "label": "D",
+        "text": "SELECT"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 172,
+    "topic": "Views",
+    "question": "Create EndangeredEuropeanBirds_View. Complete: ___ ___ ___ FROM Birds b WHERE b.Region = 'Europe' AND b.Status = 'Endangered'",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE VIEW [dbo].[EndangeredEuropeanBirds_View]"
+      },
+      {
+        "label": "B",
+        "text": "AS"
+      },
+      {
+        "label": "C",
+        "text": "SELECT b.Id, b.Name, b.Status"
+      },
+      {
+        "label": "D",
+        "text": "All of the above"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 173,
+    "topic": "Views",
+    "question": "Set up database for North American mammals view. Match SQL statements to SQL query.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE VIEW"
+      },
+      {
+        "label": "B",
+        "text": "AS"
+      },
+      {
+        "label": "C",
+        "text": "SELECT"
+      },
+      {
+        "label": "D",
+        "text": "FROM"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 174,
+    "topic": "Views",
+    "question": "Which statements are true of a view?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "View can insert data into tables"
+      },
+      {
+        "label": "B",
+        "text": "View simplifies how users work with data"
+      },
+      {
+        "label": "C",
+        "text": "View is not reusable"
+      },
+      {
+        "label": "D",
+        "text": "View joins static tables using user-defined parameters"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 175,
+    "topic": "Views",
+    "question": "Correct syntax for deleting a view?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "DELETE VIEW view_name"
+      },
+      {
+        "label": "B",
+        "text": "REMOVE VIEW view_name"
+      },
+      {
+        "label": "C",
+        "text": "DROP VIEW view_name"
+      },
+      {
+        "label": "D",
+        "text": "ALTER VIEW view_name"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 176,
+    "topic": "Views",
+    "question": "Create view retrieving Name from Games, allowing order by Name. Which SQL correct?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE VIEW vw_Mygames As SELECT Name From Games ORDER BY Name"
+      },
+      {
+        "label": "B",
+        "text": "CREATE VIEW vw_Mygames As SELECT * FROM Games"
+      },
+      {
+        "label": "C",
+        "text": "CREATE VIEW vw_Mygames As SELECT TOP 100 PERCENT Name FROM Games ORDER BY Name"
+      },
+      {
+        "label": "D",
+        "text": "CREATE VIEW vw_Mygames As SELECT * From Games Where Name BETWEEN 'A' AND 'Z'"
+      },
+      {
+        "label": "E",
+        "text": "CREATE VIEW vw_Mygames As SELECT Name FROM Games SELECT Name FROM vw_Mygames ORDER BY Name;"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 177,
+    "topic": "Views",
+    "question": "Need to remove EmployeeView from database. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "DELETE VIEW EmployeeView"
+      },
+      {
+        "label": "B",
+        "text": "DELETE EmployeeView"
+      },
+      {
+        "label": "C",
+        "text": "DROP EmployeeView"
+      },
+      {
+        "label": "D",
+        "text": "DROP VIEW EmployeeView"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 178,
+    "topic": "Procedures & Functions",
+    "question": "Named group of SQL statements executed in database is called:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Subroutine"
+      },
+      {
+        "label": "B",
+        "text": "Formula"
+      },
+      {
+        "label": "C",
+        "text": "Stored procedure"
+      },
+      {
+        "label": "D",
+        "text": "Method"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 179,
+    "topic": "Procedures & Functions",
+    "question": "One reason to create stored procedure is to:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Improve performance"
+      },
+      {
+        "label": "B",
+        "text": "Minimize storage space"
+      },
+      {
+        "label": "C",
+        "text": "Bypass case sensitivity requirements"
+      },
+      {
+        "label": "D",
+        "text": "Give user control of query logic"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 180,
+    "topic": "Procedures & Functions",
+    "question": "Database stores data for later processing. Which object to store data?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "View"
+      },
+      {
+        "label": "B",
+        "text": "Table"
+      },
+      {
+        "label": "C",
+        "text": "Function"
+      },
+      {
+        "label": "D",
+        "text": "Stored procedure"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 181,
+    "topic": "Procedures & Functions",
+    "question": "Write SQL statements for long query, send result in email. Call code manually anytime. Which object stores code?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Stored procedure"
+      },
+      {
+        "label": "B",
+        "text": "Function"
+      },
+      {
+        "label": "C",
+        "text": "Trigger"
+      },
+      {
+        "label": "D",
+        "text": "View"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 182,
+    "topic": "Procedures & Functions",
+    "question": "Which permission needed to run stored procedure?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "EXECUTE"
+      },
+      {
+        "label": "B",
+        "text": "ALLOW"
+      },
+      {
+        "label": "C",
+        "text": "CALL"
+      },
+      {
+        "label": "D",
+        "text": "RUN"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 183,
+    "topic": "Procedures & Functions",
+    "question": "Group of commands that return a value is called:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Procedure"
+      },
+      {
+        "label": "B",
+        "text": "Function"
+      },
+      {
+        "label": "C",
+        "text": "Trigger"
+      },
+      {
+        "label": "D",
+        "text": "View"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 184,
+    "topic": "Procedures & Functions",
+    "question": "One difference between function and stored procedure is function:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Must be called from trigger"
+      },
+      {
+        "label": "B",
+        "text": "Must return a value"
+      },
+      {
+        "label": "C",
+        "text": "Cannot contain transaction"
+      },
+      {
+        "label": "D",
+        "text": "Cannot accept parameters"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 185,
+    "topic": "Procedures & Functions",
+    "question": "Select Yes/No: A. Delete data using stored procedure B. Function must have return value C. Stored procedure must have return value",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A: Yes, B: Yes, C: No"
+      },
+      {
+        "label": "B",
+        "text": "A: No, B: Yes, C: Yes"
+      },
+      {
+        "label": "C",
+        "text": "A: Yes, B: No, C: No"
+      },
+      {
+        "label": "D",
+        "text": "A: No, B: No, C: Yes"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 186,
+    "topic": "Procedures & Functions",
+    "question": "Which SQL calls scalar function CalculateAge to display employee age?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT Name, dbo.CalculateAge(BirthDate) AS Age FROM Employees;"
+      },
+      {
+        "label": "B",
+        "text": "EXEC CalculateAge @BirthDate = '1990-01-01';"
+      },
+      {
+        "label": "C",
+        "text": "SELECT dbo.CalculateAge() FROM Employees;"
+      },
+      {
+        "label": "D",
+        "text": "SELECT * FROM dbo.CalculateAge();"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 187,
+    "topic": "Procedures & Functions",
+    "question": "Which SQL calls table-valued function GetEmployeesByDepartment for department 3?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "SELECT * FROM dbo.GetEmployeesByDepartment(3);"
+      },
+      {
+        "label": "B",
+        "text": "SELECT * FROM Employees WHERE DepartmentID = dbo.GetEmployeesByDepartment(3);"
+      },
+      {
+        "label": "C",
+        "text": "EXEC GetEmployeesByDepartment 3;"
+      },
+      {
+        "label": "D",
+        "text": "SELECT dbo.GetEmployeesByDepartment();"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 188,
+    "topic": "Users & Security",
+    "question": "Select Yes/No: A. SQL Login uses Windows Authentication B. SQL Role provides server-level permissions C. SQL Login granted permissions to database views only",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A: Yes, B: Yes, C: No"
+      },
+      {
+        "label": "B",
+        "text": "A: No, B: No, C: Yes"
+      },
+      {
+        "label": "C",
+        "text": "A: Yes, B: No, C: No"
+      },
+      {
+        "label": "D",
+        "text": "A: No, B: Yes, C: Yes"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 189,
+    "topic": "Users & Security",
+    "question": "Need to establish permissions set to routinely assign to new users. What should you create?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Resource"
+      },
+      {
+        "label": "B",
+        "text": "Group"
+      },
+      {
+        "label": "C",
+        "text": "List"
+      },
+      {
+        "label": "D",
+        "text": "Role"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 190,
+    "topic": "Users & Security",
+    "question": "User has server roles defined. Use dropdowns: User can perform ___ actions on data. User can perform ___ actions on database objects.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "read/write, administrative"
+      },
+      {
+        "label": "B",
+        "text": "administrative, schema modification"
+      },
+      {
+        "label": "C",
+        "text": "query, backup"
+      },
+      {
+        "label": "D",
+        "text": "all, limited"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 191,
+    "topic": "Users & Security",
+    "question": "What role gives full access to individual database?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "db_owner"
+      },
+      {
+        "label": "B",
+        "text": "db_accessadmin"
+      },
+      {
+        "label": "C",
+        "text": "db_securityadmin"
+      },
+      {
+        "label": "D",
+        "text": "db_ddladmin"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 192,
+    "topic": "Users & Security",
+    "question": "Which role gives read-only access to all tables in database?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "db_datawriter"
+      },
+      {
+        "label": "B",
+        "text": "db_owner"
+      },
+      {
+        "label": "C",
+        "text": "db_securityadmin"
+      },
+      {
+        "label": "D",
+        "text": "db_datareader"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 193,
+    "topic": "Users & Security",
+    "question": "Which command creates new login account in SQL Server?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "CREATE LOGIN"
+      },
+      {
+        "label": "B",
+        "text": "CREATE ROLE"
+      },
+      {
+        "label": "C",
+        "text": "CREATE USER"
+      },
+      {
+        "label": "D",
+        "text": "ADD USER"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 194,
+    "topic": "Users & Security",
+    "question": "Enable new employee to authenticate to database. Which command?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "ALLOW USER"
+      },
+      {
+        "label": "B",
+        "text": "CREATE USER"
+      },
+      {
+        "label": "C",
+        "text": "ADD USER"
+      },
+      {
+        "label": "D",
+        "text": "INSERT USER"
+      },
+      {
+        "label": "E",
+        "text": "ALTER USER"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 195,
+    "topic": "Users & Security",
+    "question": "Use ___ command to allow users access objects within database.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "GRANT"
+      },
+      {
+        "label": "B",
+        "text": "DENY"
+      },
+      {
+        "label": "C",
+        "text": "PERMIT"
+      },
+      {
+        "label": "D",
+        "text": "ALTER"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 196,
+    "topic": "Users & Security",
+    "question": "Evaluate underlined: Use ALLOW SELECT to give user permission to read table data. If correct \"No change needed\", else correct.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "No change is needed"
+      },
+      {
+        "label": "B",
+        "text": "GRANT SELECT"
+      },
+      {
+        "label": "C",
+        "text": "LET HEAD"
+      },
+      {
+        "label": "D",
+        "text": "PERMIT READ"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 197,
+    "topic": "Users & Security",
+    "question": "DBA needs: Execute sp_current_sales for inside_sales group. Run vw_sales_today for sales manager role, allow manager to give others permission. Which statements?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "GRANT EXECUTE ON sp_current_sales TO inside_sales"
+      },
+      {
+        "label": "B",
+        "text": "GRANT SELECT ON vw_sales_today TO sales_manager WITH GRANT OPTION"
+      },
+      {
+        "label": "C",
+        "text": "Both A and B"
+      },
+      {
+        "label": "D",
+        "text": "Neither"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 198,
+    "topic": "Users & Security",
+    "question": "You assign User1 permissions with WITH GRANT OPTION. This enables User1 to:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "request log of permission use"
+      },
+      {
+        "label": "B",
+        "text": "delegate permissions to other users"
+      },
+      {
+        "label": "C",
+        "text": "create new database users"
+      },
+      {
+        "label": "D",
+        "text": "view other users' permissions"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 199,
+    "topic": "Users & Security",
+    "question": "Purpose of DENY permission in SQL Server?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Deletes the user"
+      },
+      {
+        "label": "B",
+        "text": "Temporarily disables user"
+      },
+      {
+        "label": "C",
+        "text": "Explicitly blocks a permission"
+      },
+      {
+        "label": "D",
+        "text": "Allows SELECT but denies INSERT"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 200,
+    "topic": "Users & Security",
+    "question": "Disable User1's access to view Customer table data. Which statement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "REMOVE User1 FROM Customer"
+      },
+      {
+        "label": "B",
+        "text": "REMOVE SELECT ON Customer FROM User1"
+      },
+      {
+        "label": "C",
+        "text": "REVOKE SELECT ON Customer FROM User1"
+      },
+      {
+        "label": "D",
+        "text": "REVOKE User1 FROM Customer"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 201,
+    "topic": "Backup & Restore",
+    "question": "Main purpose of performing regular database backups?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Increase query performance"
+      },
+      {
+        "label": "B",
+        "text": "Prevent loss of critical information"
+      },
+      {
+        "label": "C",
+        "text": "Allow users to edit data faster"
+      },
+      {
+        "label": "D",
+        "text": "Reset permissions automatically"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 202,
+    "topic": "Backup & Restore",
+    "question": "In which situation perform restore on database?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Data becomes corrupted"
+      },
+      {
+        "label": "B",
+        "text": "Need to roll back transaction"
+      },
+      {
+        "label": "C",
+        "text": "Encounter error in application"
+      },
+      {
+        "label": "D",
+        "text": "Need to delete data"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 203,
+    "topic": "Backup & Restore",
+    "question": "Database with 10 terabytes. Backup every two hours. Which backup type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "archive"
+      },
+      {
+        "label": "B",
+        "text": "incremental"
+      },
+      {
+        "label": "C",
+        "text": "partial"
+      },
+      {
+        "label": "D",
+        "text": "full"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 204,
+    "topic": "Backup & Restore",
+    "question": "3PM: backup database. 4PM: create Customer table, import data. 5PM: server fails. Run script applying 3PM backup. Result?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Customer table no longer exists"
+      },
+      {
+        "label": "B",
+        "text": "Customer table is unaffected"
+      },
+      {
+        "label": "C",
+        "text": "Customer table exists but no data"
+      },
+      {
+        "label": "D",
+        "text": "Script fails"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 205,
+    "topic": "Backup & Restore",
+    "question": "Which correctly describes Full Backup?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Only backs up changed data since last backup"
+      },
+      {
+        "label": "B",
+        "text": "Complete copy of entire database including all data and structures"
+      },
+      {
+        "label": "C",
+        "text": "Backs up transaction log changes only"
+      },
+      {
+        "label": "D",
+        "text": "Saves most recent changes in specific time window"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 206,
+    "topic": "Backup & Restore",
+    "question": "Which best describes Differential Backup?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Backs up all data and structures, complete copy"
+      },
+      {
+        "label": "B",
+        "text": "Only backs up changes since last incremental"
+      },
+      {
+        "label": "C",
+        "text": "Backs up changes since last full backup"
+      },
+      {
+        "label": "D",
+        "text": "Only backs up transaction log changes"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 207,
+    "topic": "Backup & Restore",
+    "question": "Which best describes Incremental Backup?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Backs up data modified since last full or incremental"
+      },
+      {
+        "label": "B",
+        "text": "Backs up all data modified since last differential"
+      },
+      {
+        "label": "C",
+        "text": "Backs up changes since last transaction log"
+      },
+      {
+        "label": "D",
+        "text": "Always performs complete copy of database"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 208,
+    "topic": "Backup & Restore",
+    "question": "Purpose of transaction log backup in SQL Server?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Reset database to factory settings"
+      },
+      {
+        "label": "B",
+        "text": "Back up only system tables"
+      },
+      {
+        "label": "C",
+        "text": "Capture all transactions since last log backup"
+      },
+      {
+        "label": "D",
+        "text": "Compress full backups into smaller files"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 209,
+    "topic": "Backup & Restore",
+    "question": "Select Yes/No: A. Full backup copies all data B. Transaction log backs up all data C. Differential backs up data changed before last full D. File/filegroup restore recovers portion",
+    "answers": [
+      {
+        "label": "A",
+        "text": "A: Yes, B: No, C: No, D: Yes"
+      },
+      {
+        "label": "B",
+        "text": "A: Yes, B: Yes, C: Yes, D: No"
+      },
+      {
+        "label": "C",
+        "text": "A: No, B: No, C: Yes, D: Yes"
+      },
+      {
+        "label": "D",
+        "text": "A: No, B: Yes, C: No, D: No"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 210,
+    "topic": "Backup & Restore",
+    "question": "Simple recovery vs full recovery model. Using simple provides ___ work-loss exposure and ___ log file backups than full.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "more, fewer"
+      },
+      {
+        "label": "B",
+        "text": "less, more"
+      },
+      {
+        "label": "C",
+        "text": "same, same"
+      },
+      {
+        "label": "D",
+        "text": "more, more"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 211,
+    "topic": "Backup & Restore",
+    "question": "Evaluate underlined: Truncate is database term for applying backup to damaged database. If correct \"No change needed\", else correct.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Change is needed"
+      },
+      {
+        "label": "B",
+        "text": "Commit"
+      },
+      {
+        "label": "C",
+        "text": "Attach"
+      },
+      {
+        "label": "D",
+        "text": "Restore"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 212,
+    "topic": "Backup & Restore",
+    "question": "DBA wants to test backup/restore for sales database. Complete statements for full backup to E:\\backups\\sales.bak and restore.",
+    "answers": [
+      {
+        "label": "A",
+        "text": "BACKUP DATABASE sales TO DISK = 'E:\\backups\\sales.bak'"
+      },
+      {
+        "label": "B",
+        "text": "RESTORE DATABASE sales FROM DISK = 'E:\\backups\\sales.bak'"
+      },
+      {
+        "label": "C",
+        "text": "Both A and B"
+      },
+      {
+        "label": "D",
+        "text": "Neither"
+      }
+    ],
+    "correct": []
+  },
+  {
+    "id": 213,
+    "topic": "Backup & Restore",
+    "question": "Main data files on SQL server have extension:",
+    "answers": [
+      {
+        "label": "A",
+        "text": ".ldf"
+      },
+      {
+        "label": "B",
+        "text": ".ndf"
+      },
+      {
+        "label": "C",
+        "text": ".mdf"
+      },
+      {
+        "label": "D",
+        "text": ".bak"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 214,
+    "topic": "Backup & Restore",
+    "question": "Filename extension of SQL Server transaction log?",
+    "answers": [
+      {
+        "label": "A",
+        "text": ".mdf"
+      },
+      {
+        "label": "B",
+        "text": ".ldf"
+      },
+      {
+        "label": "C",
+        "text": ".ndf"
+      },
+      {
+        "label": "D",
+        "text": ".log"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 215,
+    "topic": "Security & Integrity",
+    "question": "Delete rows from Order table. Corresponding rows in OrderItem automatically deleted. This is example of:",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Inherited delete"
+      },
+      {
+        "label": "B",
+        "text": "Cascade delete"
+      },
+      {
+        "label": "C",
+        "text": "Functional delete"
+      },
+      {
+        "label": "D",
+        "text": "Waterfall delete"
+      },
+      {
+        "label": "E",
+        "text": "Domino delete"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 216,
+    "topic": "Security & Integrity",
+    "question": "What is referential integrity in database systems?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Ensures all queries return results"
+      },
+      {
+        "label": "B",
+        "text": "Ensures relationships between tables remain consistent"
+      },
+      {
+        "label": "C",
+        "text": "Encrypts sensitive data"
+      },
+      {
+        "label": "D",
+        "text": "Backs up data automatically"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 217,
+    "topic": "Security & Integrity",
+    "question": "Auto trading company. Remove car from database. Car info in Make, Model, Engine, ModelEngine tables. Cascading deletes not enabled, referential integrity is. From which table first delete?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Make"
+      },
+      {
+        "label": "B",
+        "text": "Model"
+      },
+      {
+        "label": "C",
+        "text": "Engine"
+      },
+      {
+        "label": "D",
+        "text": "ModelEngine"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 218,
+    "topic": "Security & Integrity",
+    "question": "Which measure protects patient data from unauthorized access during storage/transmission?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Auditing and monitoring"
+      },
+      {
+        "label": "B",
+        "text": "Strong data encryption"
+      },
+      {
+        "label": "C",
+        "text": "Role-based access control"
+      },
+      {
+        "label": "D",
+        "text": "De-identification and anonymization"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 219,
+    "topic": "Security & Integrity",
+    "question": "Which database encryption method encrypts data at rest?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Transparent data encryption"
+      },
+      {
+        "label": "B",
+        "text": "Column-level encryption"
+      },
+      {
+        "label": "C",
+        "text": "Trusted Platform Module"
+      },
+      {
+        "label": "D",
+        "text": "Application-level encryption"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 220,
+    "topic": "Security & Integrity",
+    "question": "What does TDE (Transparent Data Encryption) protect?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Network traffic"
+      },
+      {
+        "label": "B",
+        "text": "Database files/backups at rest"
+      },
+      {
+        "label": "C",
+        "text": "Passwords in table"
+      },
+      {
+        "label": "D",
+        "text": "User permissions"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 221,
+    "topic": "Security & Integrity",
+    "question": "Organization hosts website with back-end database storing customer data including credit cards. BEST way to protect credit card data?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Full database encryption"
+      },
+      {
+        "label": "B",
+        "text": "Whole disk encryption"
+      },
+      {
+        "label": "C",
+        "text": "Database column encryption"
+      },
+      {
+        "label": "D",
+        "text": "File-level encryption"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  },
+  {
+    "id": 222,
+    "topic": "Security & Integrity",
+    "question": "Applying Always Encrypted to IDNP column. Effect on server?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Server can sort by ID in plaintext"
+      },
+      {
+        "label": "B",
+        "text": "Server never sees plaintext; some operations limited"
+      },
+      {
+        "label": "C",
+        "text": "Tables become read-only"
+      },
+      {
+        "label": "D",
+        "text": "Keys no longer needed"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 223,
+    "topic": "Security & Integrity",
+    "question": "After breach in industry, ensure databases encrypted with minimal performance degradation. Which encryption method to implement?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Column-level encryption"
+      },
+      {
+        "label": "B",
+        "text": "File-level encryption"
+      },
+      {
+        "label": "C",
+        "text": "Table-level encryption"
+      },
+      {
+        "label": "D",
+        "text": "Record-level encryption"
+      },
+      {
+        "label": "E",
+        "text": "Cell-level encryption"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 224,
+    "topic": "Security & Integrity",
+    "question": "Which technique suitable for storing passwords?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "TDE"
+      },
+      {
+        "label": "B",
+        "text": "Salted hashing"
+      },
+      {
+        "label": "C",
+        "text": "Masking"
+      },
+      {
+        "label": "D",
+        "text": "Backup Encryption"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 225,
+    "topic": "Security & Integrity",
+    "question": "Attacker retrieves hashed passwords from breached database, uses precomputed hash values to crack passwords. Attack type?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Brute force attack"
+      },
+      {
+        "label": "B",
+        "text": "Dictionary attack"
+      },
+      {
+        "label": "C",
+        "text": "Spraying attack"
+      },
+      {
+        "label": "D",
+        "text": "Rainbow attack"
+      }
+    ],
+    "correct": [
+      "D"
+    ]
+  },
+  {
+    "id": 226,
+    "topic": "Security & Integrity",
+    "question": "What does Dynamic Data Masking do?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Encrypts column on disk"
+      },
+      {
+        "label": "B",
+        "text": "Hides values at display time for certain users"
+      },
+      {
+        "label": "C",
+        "text": "Computes an HMAC"
+      },
+      {
+        "label": "D",
+        "text": "Restores passwords"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 227,
+    "topic": "Security & Integrity",
+    "question": "Measures to protect sensitive data from unauthorized access in data security?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Data masking and anonymization"
+      },
+      {
+        "label": "B",
+        "text": "Data aggregation"
+      },
+      {
+        "label": "C",
+        "text": "Data retention"
+      },
+      {
+        "label": "D",
+        "text": "Data classification"
+      }
+    ],
+    "correct": [
+      "A"
+    ]
+  },
+  {
+    "id": 228,
+    "topic": "Security & Integrity",
+    "question": "Purpose of database auditing?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Encrypt sensitive data"
+      },
+      {
+        "label": "B",
+        "text": "Track and record database activities for security and compliance"
+      },
+      {
+        "label": "C",
+        "text": "Enhance user experience"
+      },
+      {
+        "label": "D",
+        "text": "Optimize query performance"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 229,
+    "topic": "Security & Integrity",
+    "question": "Which activity is NOT audited in database system for security/compliance?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Database objects"
+      },
+      {
+        "label": "B",
+        "text": "Network"
+      },
+      {
+        "label": "C",
+        "text": "Data"
+      },
+      {
+        "label": "D",
+        "text": "Use access and authentication"
+      },
+      {
+        "label": "E",
+        "text": "None of these"
+      }
+    ],
+    "correct": [
+      "B"
+    ]
+  },
+  {
+    "id": 230,
+    "topic": "Security & Integrity",
+    "question": "Database audit log tracks user activities. Primary purpose of enabling database auditing?",
+    "answers": [
+      {
+        "label": "A",
+        "text": "Improve performance"
+      },
+      {
+        "label": "B",
+        "text": "Ensure data normalization"
+      },
+      {
+        "label": "C",
+        "text": "Enhance accountability and security"
+      },
+      {
+        "label": "D",
+        "text": "Automate transaction management"
+      }
+    ],
+    "correct": [
+      "C"
+    ]
+  }
+]
