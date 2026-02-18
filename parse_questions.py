@@ -5,11 +5,14 @@ Parse Excel file and generate JSON data for the quiz application
 import openpyxl
 import json
 
+# Yellow color codes used to mark correct answers in the Excel file
+YELLOW_COLORS = ['FFFFFF00', 'FFFF00', '00FFFF00']
+
 def is_yellow_cell(cell):
     """Check if a cell has yellow background"""
     if cell.fill and cell.fill.start_color:
         color = cell.fill.start_color.rgb
-        if color and color in ['FFFFFF00', 'FFFF00', '00FFFF00']:
+        if color and color in YELLOW_COLORS:
             return True
     return False
 

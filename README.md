@@ -65,7 +65,7 @@ This will parse the Excel file and create an updated questions.json file.
 ## Technical Details
 
 - Pure HTML/CSS/JavaScript - no frameworks required
-- Uses openpyxl and pandas for Excel parsing
+- Uses openpyxl for Excel parsing
 - Color detection for yellow-highlighted correct answers
 - Client-side only - no server required after parsing
 
@@ -81,7 +81,7 @@ Works on all modern browsers:
 
 For parsing Excel files:
 ```bash
-pip install openpyxl pandas
+pip install openpyxl
 ```
 
 No requirements for running the quiz - just a web browser!
