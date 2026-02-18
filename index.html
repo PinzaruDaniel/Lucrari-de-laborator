@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database Study Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Database Study Quiz</h1>
+            <div class="progress-container">
+                <div class="stats">
+                    <span id="questionCounter">Question 1 of 230</span>
+                    <span id="scoreDisplay">Score: 0%</span>
+                </div>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+            </div>
+        </header>
+
+        <main>
+            <div id="quizContainer">
+                <div class="topic" id="topicDisplay"></div>
+                <div class="question" id="questionDisplay"></div>
+                <div id="answersContainer" class="answers-container"></div>
+                <div id="feedbackContainer" class="feedback-container"></div>
+                <div class="button-container">
+                    <button id="nextBtn" class="btn btn-next" style="display: none;">Next Question</button>
+                    <button id="restartBtn" class="btn btn-restart" style="display: none;">Restart Quiz</button>
+                </div>
+            </div>
+
+            <div id="resultsContainer" style="display: none;">
+                <h2>Quiz Complete!</h2>
+                <div class="final-score">
+                    <p>Your Final Score:</p>
+                    <p class="score-number" id="finalScore">0%</p>
+                    <p id="scoreBreakdown"></p>
+                </div>
+                <button id="restartFinalBtn" class="btn btn-restart">Restart Quiz</button>
+            </div>
+        </main>
+    </div>
+
+    <script src="quiz.js"></script>
+</body>
+</html>
