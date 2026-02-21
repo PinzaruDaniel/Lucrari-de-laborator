@@ -820,7 +820,9 @@
         "text": "All of the above"
       }
     ],
-    "correct": []
+    "correct": [
+      "D"
+    ]
   },
   {
     "id": 32,
@@ -2491,7 +2493,9 @@
         "text": "Indexed"
       }
     ],
-    "correct": []
+    "correct": [
+      "A"
+    ]
   },
   {
     "id": 96,
@@ -2645,7 +2649,9 @@
         "text": "All of the above"
       }
     ],
-    "correct": []
+    "correct": [
+      "D"
+    ]
   },
   {
     "id": 102,
@@ -3737,7 +3743,9 @@
         "text": "All of the above"
       }
     ],
-    "correct": []
+    "correct": [
+      "D"
+    ]
   },
   {
     "id": 143,
@@ -4311,7 +4319,9 @@
         "text": "use joins, are numeric"
       }
     ],
-    "correct": []
+    "correct": [
+      "B"
+    ]
   },
   {
     "id": 165,
@@ -4361,7 +4371,9 @@
         "text": "Result of query execution"
       }
     ],
-    "correct": []
+    "correct": [
+      "A"
+    ]
   },
   {
     "id": 167,
@@ -4385,7 +4397,9 @@
         "text": "Save historical data before deleting from base table"
       }
     ],
-    "correct": []
+    "correct": [
+      "C"
+    ]
   },
   {
     "id": 168,
@@ -4409,7 +4423,9 @@
         "text": "Query ignored if view not indexed"
       }
     ],
-    "correct": []
+    "correct": [
+      "B"
+    ]
   },
   {
     "id": 169,
@@ -4433,7 +4449,9 @@
         "text": "Archived"
       }
     ],
-    "correct": []
+    "correct": [
+      "A"
+    ]
   },
   {
     "id": 170,
@@ -4457,7 +4475,9 @@
         "text": "CREATE VIEW AS UPDATE"
       }
     ],
-    "correct": []
+    "correct": [
+      "A"
+    ]
   },
   {
     "id": 171,
@@ -4481,7 +4501,9 @@
         "text": "SELECT"
       }
     ],
-    "correct": []
+    "correct": [
+      "D"
+    ]
   },
   {
     "id": 172,
@@ -4505,7 +4527,9 @@
         "text": "All of the above"
       }
     ],
-    "correct": []
+    "correct": [
+      "D"
+    ]
   },
   {
     "id": 173,
@@ -4529,7 +4553,9 @@
         "text": "FROM"
       }
     ],
-    "correct": []
+    "correct": [
+      "A"
+    ]
   },
   {
     "id": 174,
@@ -4553,7 +4579,9 @@
         "text": "View joins static tables using user-defined parameters"
       }
     ],
-    "correct": []
+    "correct": [
+      "B"
+    ]
   },
   {
     "id": 175,
@@ -4577,7 +4605,9 @@
         "text": "ALTER VIEW view_name"
       }
     ],
-    "correct": []
+    "correct": [
+      "C"
+    ]
   },
   {
     "id": 176,
@@ -4605,7 +4635,9 @@
         "text": "CREATE VIEW vw_Mygames As SELECT Name FROM Games SELECT Name FROM vw_Mygames ORDER BY Name;"
       }
     ],
-    "correct": []
+    "correct": [
+      "C"
+    ]
   },
   {
     "id": 177,
@@ -4629,7 +4661,9 @@
         "text": "DROP VIEW EmployeeView"
       }
     ],
-    "correct": []
+    "correct": [
+      "D"
+    ]
   },
   {
     "id": 178,
@@ -4965,7 +4999,9 @@
         "text": "all, limited"
       }
     ],
-    "correct": []
+    "correct": [
+      "A"
+    ]
   },
   {
     "id": 191,
@@ -5149,7 +5185,9 @@
         "text": "Neither"
       }
     ],
-    "correct": []
+    "correct": [
+      "C"
+    ]
   },
   {
     "id": 198,
@@ -5537,7 +5575,9 @@
         "text": "Neither"
       }
     ],
-    "correct": []
+    "correct": [
+      "C"
+    ]
   },
   {
     "id": 213,
